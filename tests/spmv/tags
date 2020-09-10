@@ -1,0 +1,119 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+COMPARE	denseMV_scalar.c	2266;"	d	file:
+COO	denseMV_scalar.c	/^typedef enum {DENSE=0, CSR=1, COO=2, DENSE_DNN=3} matrix_type_t;$/;"	e	enum:__anon3	file:
+CSR	denseMV_scalar.c	/^typedef enum {DENSE=0, CSR=1, COO=2, DENSE_DNN=3} matrix_type_t;$/;"	e	enum:__anon3	file:
+C_BV	denseMV_scalar.c	/^typedef enum {C_DENSE=0, C_CSR=1, C_BV=2, C_HHT_DENSE=3, C_HHT_SPARSE=4} compute_type_t;$/;"	e	enum:__anon2	file:
+C_CSR	denseMV_scalar.c	/^typedef enum {C_DENSE=0, C_CSR=1, C_BV=2, C_HHT_DENSE=3, C_HHT_SPARSE=4} compute_type_t;$/;"	e	enum:__anon2	file:
+C_DENSE	denseMV_scalar.c	/^typedef enum {C_DENSE=0, C_CSR=1, C_BV=2, C_HHT_DENSE=3, C_HHT_SPARSE=4} compute_type_t;$/;"	e	enum:__anon2	file:
+C_HHT_DENSE	denseMV_scalar.c	/^typedef enum {C_DENSE=0, C_CSR=1, C_BV=2, C_HHT_DENSE=3, C_HHT_SPARSE=4} compute_type_t;$/;"	e	enum:__anon2	file:
+C_HHT_SPARSE	denseMV_scalar.c	/^typedef enum {C_DENSE=0, C_CSR=1, C_BV=2, C_HHT_DENSE=3, C_HHT_SPARSE=4} compute_type_t;$/;"	e	enum:__anon2	file:
+DENSE	denseMV_scalar.c	/^typedef enum {DENSE=0, CSR=1, COO=2, DENSE_DNN=3} matrix_type_t;$/;"	e	enum:__anon3	file:
+DENSE_DNN	denseMV_scalar.c	/^typedef enum {DENSE=0, CSR=1, COO=2, DENSE_DNN=3} matrix_type_t;$/;"	e	enum:__anon3	file:
+HELPER_BASE	denseMV_scalar.c	/^unsigned long HELPER_BASE = (3*1024*1024*1024);$/;"	v
+HHTInit	denseMV_scalar.c	/^void HHTInit(int n, int m_rows_base, int m_cols_base, int v_base, int m_vals_base)$/;"	f
+HHT_BASE	denseMV_scalar.c	/^volatile int *HHT_BASE = (int*)HELPER_BASE;$/;"	v
+PFN	denseMV_scalar.c	/^typedef void (*PFN)(void);$/;"	t	file:
+S_BV	denseMV_scalar.c	/^typedef enum {S_DENSE=0, S_CSR=1, S_BV=2} storage_type_t;$/;"	e	enum:__anon1	file:
+S_CSR	denseMV_scalar.c	/^typedef enum {S_DENSE=0, S_CSR=1, S_BV=2} storage_type_t;$/;"	e	enum:__anon1	file:
+S_DENSE	denseMV_scalar.c	/^typedef enum {S_DENSE=0, S_CSR=1, S_BV=2} storage_type_t;$/;"	e	enum:__anon1	file:
+assignExecuteFunction	denseMV_scalar.c	/^PFN assignExecuteFunction(storage_type_t storage_format, compute_type_t compute_format, int vector_size)$/;"	f
+b_vals	denseMV_scalar.c	/^int  * b_vals;$/;"	v
+bitmap	denseMV_scalar.c	/^char * bitmap;$/;"	v
+bv_lower_12	denseMV_scalar.c	/^int bv_lower_12;$/;"	v
+bv_upper_20	denseMV_scalar.c	/^int bv_upper_20;$/;"	v
+cols	denseMV_scalar.c	/^int * cols;$/;"	v
+cols_lower_12	denseMV_scalar.c	/^int cols_lower_12;$/;"	v
+cols_upper_20	denseMV_scalar.c	/^int cols_upper_20;$/;"	v
+compute_type	denseMV_scalar.c	/^compute_type_t compute_type;$/;"	v
+compute_type_t	denseMV_scalar.c	/^typedef enum {C_DENSE=0, C_CSR=1, C_BV=2, C_HHT_DENSE=3, C_HHT_SPARSE=4} compute_type_t;$/;"	t	typeref:enum:__anon2	file:
+execBVBVScalar	denseMV_scalar.c	/^void execBVBVScalar(void) $/;"	f
+execBVBVVector2	denseMV_scalar.c	/^void execBVBVVector2(void) $/;"	f
+execBVBVVector4	denseMV_scalar.c	/^void execBVBVVector4(void) $/;"	f
+execBVBVVector8	denseMV_scalar.c	/^void execBVBVVector8(void) $/;"	f
+execBVScalar	denseMV_scalar.c	/^void execBVScalar(void)$/;"	f
+execCSRCSRScalar	denseMV_scalar.c	/^void execCSRCSRScalar(void) $/;"	f
+execCSRCSRVector2	denseMV_scalar.c	/^void execCSRCSRVector2(void) $/;"	f
+execCSRCSRVector4	denseMV_scalar.c	/^void execCSRCSRVector4(void) $/;"	f
+execCSRCSRVector8	denseMV_scalar.c	/^void execCSRCSRVector8(void) $/;"	f
+execCSRScalar	denseMV_scalar.c	/^void execCSRScalar(void)$/;"	f
+execCSRVector_V2	denseMV_scalar.c	/^void execCSRVector_V2(void)$/;"	f
+execCSRVector_V4	denseMV_scalar.c	/^void execCSRVector_V4(void)$/;"	f
+execCSRVector_V8	denseMV_scalar.c	/^void execCSRVector_V8(void)$/;"	f
+execDenseDenseScalar	denseMV_scalar.c	/^void execDenseDenseScalar(void) $/;"	f
+execDenseDenseVector2	denseMV_scalar.c	/^void execDenseDenseVector2(void) $/;"	f
+execDenseDenseVector4	denseMV_scalar.c	/^void execDenseDenseVector4(void) $/;"	f
+execDenseDenseVector8	denseMV_scalar.c	/^void execDenseDenseVector8(void) $/;"	f
+execDenseScalar	denseMV_scalar.c	/^void execDenseScalar(void)$/;"	f
+execDenseVector_V2	denseMV_scalar.c	/^void execDenseVector_V2(void)$/;"	f
+execDenseVector_V4	denseMV_scalar.c	/^void execDenseVector_V4(void)$/;"	f
+execDenseVector_V8	denseMV_scalar.c	/^void execDenseVector_V8(void)$/;"	f
+execHWHelperScalar	denseMV_scalar.c	/^void execHWHelperScalar(void)$/;"	f
+execHWHelper_V2	denseMV_scalar.c	/^void execHWHelper_V2(void)$/;"	f
+execHWHelper_V4	denseMV_scalar.c	/^void execHWHelper_V4(void)$/;"	f
+execHWHelper_V8	denseMV_scalar.c	/^void execHWHelper_V8(void)$/;"	f
+execHelperDenseBVScalar	denseMV_scalar.c	/^void execHelperDenseBVScalar(void) $/;"	f
+execHelperDenseBVVector2	denseMV_scalar.c	/^void execHelperDenseBVVector2(void) $/;"	f
+execHelperDenseBVVector4	denseMV_scalar.c	/^void execHelperDenseBVVector4(void) $/;"	f
+execHelperDenseBVVector8	denseMV_scalar.c	/^void execHelperDenseBVVector8(void) $/;"	f
+execHelperDenseCSRScalar	denseMV_scalar.c	/^void execHelperDenseCSRScalar(void) $/;"	f
+execHelperDenseCSRVector2	denseMV_scalar.c	/^void execHelperDenseCSRVector2(void) $/;"	f
+execHelperDenseCSRVector4	denseMV_scalar.c	/^void execHelperDenseCSRVector4(void) $/;"	f
+execHelperDenseCSRVector8	denseMV_scalar.c	/^void execHelperDenseCSRVector8(void) $/;"	f
+execHelperSparseBVScalar	denseMV_scalar.c	/^void execHelperSparseBVScalar(void) $/;"	f
+execHelperSparseBVVector2	denseMV_scalar.c	/^void execHelperSparseBVVector2(void) $/;"	f
+execHelperSparseBVVector4	denseMV_scalar.c	/^void execHelperSparseBVVector4(void) $/;"	f
+execHelperSparseBVVector8	denseMV_scalar.c	/^void execHelperSparseBVVector8(void) $/;"	f
+execHelperSparseCSRScalar	denseMV_scalar.c	/^void execHelperSparseCSRScalar(void) $/;"	f
+execHelperSparseCSRVector2	denseMV_scalar.c	/^void execHelperSparseCSRVector2(void) $/;"	f
+execHelperSparseCSRVector4	denseMV_scalar.c	/^void execHelperSparseCSRVector4(void) $/;"	f
+execHelperSparseCSRVector8	denseMV_scalar.c	/^void execHelperSparseCSRVector8(void) $/;"	f
+exec_fn	denseMV_scalar.c	/^PFN exec_fn;$/;"	v
+g_file_name	denseMV_scalar.c	/^char g_file_name[1024];$/;"	v
+g_nnz	denseMV_scalar.c	/^int g_nnz=0;$/;"	v
+genDenseVector	denseMV_scalar.c	/^void genDenseVector(void)$/;"	f
+genHWHelper	denseMV_scalar.c	/^void genHWHelper(void)$/;"	f
+genSparseVector	denseMV_scalar.c	/^void genSparseVector(void)$/;"	f
+handleError	denseMV_scalar.c	/^void handleError(int nr, int nc)$/;"	f
+helper_base_lower_12	denseMV_scalar.c	/^int helper_base_lower_12;$/;"	v
+helper_base_upper_20	denseMV_scalar.c	/^int helper_base_upper_20;$/;"	v
+initBitVector	denseMV_scalar.c	/^void initBitVector(void)$/;"	f
+initCSR	denseMV_scalar.c	/^void initCSR()$/;"	f
+initSparse	denseMV_scalar.c	/^void initSparse(void)$/;"	f
+last_op	denseMV_scalar.c	/^volatile int last_op;$/;"	v
+loadConstantToReg	denseMV_scalar.c	/^void loadConstantToReg(char * name, unsigned long address, int reg, int*var_lower_12)$/;"	f
+m	denseMV_scalar.c	/^int *m=0;$/;"	v
+m_lower_12	denseMV_scalar.c	/^int m_lower_12;$/;"	v
+main	denseMV_scalar.c	/^int main(int argc, char ** argv)$/;"	f
+matrix_type_t	denseMV_scalar.c	/^typedef enum {DENSE=0, CSR=1, COO=2, DENSE_DNN=3} matrix_type_t;$/;"	t	typeref:enum:__anon3	file:
+n	denseMV_scalar.c	/^int n;$/;"	v
+n_lower_12	denseMV_scalar.c	/^int n_lower_12;$/;"	v
+num_c	denseMV_scalar.c	/^int num_r, num_c, num_nz;$/;"	v
+num_nz	denseMV_scalar.c	/^int num_r, num_c, num_nz;$/;"	v
+num_r	denseMV_scalar.c	/^int num_r, num_c, num_nz;$/;"	v
+read_cycles	denseMV_scalar.c	/^unsigned long long read_cycles(void)$/;"	f
+rows	denseMV_scalar.c	/^int * rows;$/;"	v
+rows_lower_12	denseMV_scalar.c	/^int rows_lower_12;$/;"	v
+rows_upper_20	denseMV_scalar.c	/^int rows_upper_20;$/;"	v
+sparsity	denseMV_scalar.c	/^double sparsity;$/;"	v
+storage_type	denseMV_scalar.c	/^storage_type_t storage_type;$/;"	v
+storage_type_t	denseMV_scalar.c	/^typedef enum {S_DENSE=0, S_CSR=1, S_BV=2} storage_type_t;$/;"	t	typeref:enum:__anon1	file:
+t	denseMV_scalar.c	/^int t; \/\/ just for verification$/;"	v
+t_lower_12	denseMV_scalar.c	/^int t_lower_12;$/;"	v
+t_upper_20	denseMV_scalar.c	/^int t_upper_20;$/;"	v
+tooLarge	denseMV_scalar.c	/^bool tooLarge (int nr, int nc)$/;"	f
+usage	denseMV_scalar.c	/^void usage(void)$/;"	f
+v	denseMV_scalar.c	/^int *v=0;$/;"	v
+v_lower_12	denseMV_scalar.c	/^int v_lower_12;$/;"	v
+v_size	denseMV_scalar.c	/^int v_size=8;$/;"	v
+v_upper_20	denseMV_scalar.c	/^int v_upper_20;$/;"	v
+vals	denseMV_scalar.c	/^int * vals;$/;"	v
+vals_lower_12	denseMV_scalar.c	/^int vals_lower_12;$/;"	v
+vals_upper_20	denseMV_scalar.c	/^int vals_upper_20;$/;"	v
+vector_size	denseMV_scalar.c	/^int vector_size = v_size;$/;"	v
+y	denseMV_scalar.c	/^int *y=0;$/;"	v
+y_lower_12	denseMV_scalar.c	/^int y_lower_12;$/;"	v

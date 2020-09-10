@@ -1,0 +1,33 @@
+mmu.cc:#include "prefetcher.h"
+mmu.cc:  pf = new prefetcher_t(this, proc);
+mmu.cc:  //pf = new prefetcher_t(proc);
+mmu.h:#include "prefetcher.h"
+mmu.h:  prefetcher_t *pf;
+prefetcher.cc:#include "prefetcher.h"
+prefetcher.cc:prefetcher_t::prefetcher_t(mmu_t* _mmu, processor_t* _proc)
+prefetcher.cc:prefetcher_t::~prefetcher_t()
+prefetcher.cc:bool prefetcher_t::check_sb(reg_t line)
+prefetcher.cc:void prefetcher_t::prefetch(reg_t line)
+prefetcher.h:class prefetcher_t
+prefetcher.h:	prefetcher_t(mmu_t* mmu, processor_t* proc);
+prefetcher.h:	~prefetcher_t();
+tags:Sbuffer_t	prefetcher.h	/^	struct Sbuffer_t{$/;"	s	class:prefetcher_t
+tags:_PREFETCHER_H	prefetcher.h	2;"	d
+tags:addr_buffer	prefetcher.h	/^		vector<reg_t> addr_buffer;$/;"	m	struct:prefetcher_t::Sbuffer_t
+tags:addr_buffer_it	prefetcher.h	/^	std::vector<reg_t>::iterator addr_buffer_it;$/;"	m	class:prefetcher_t
+tags:check_sb	prefetcher.cc	/^bool prefetcher_t::check_sb(reg_t line)$/;"	f	class:prefetcher_t
+tags:last_prefetch_line	prefetcher.h	/^		reg_t last_prefetch_line;$/;"	m	struct:prefetcher_t::Sbuffer_t
+tags:line_size	prefetcher.h	/^	int line_size;$/;"	m	class:prefetcher_t
+tags:mmu	prefetcher.h	/^	mmu_t * mmu;$/;"	m	class:prefetcher_t
+tags:pf	mmu.h	/^  prefetcher_t *pf;$/;"	m	class:mmu_t
+tags:pf_hits	prefetcher.h	/^	uint64_t pf_hits = 0;$/;"	m	class:prefetcher_t
+tags:pf_window_hits	prefetcher.h	/^	uint64_t pf_window_hits = 0;$/;"	m	class:prefetcher_t
+tags:prefetch	prefetcher.cc	/^void prefetcher_t::prefetch(reg_t line)$/;"	f	class:prefetcher_t
+tags:prefetch_call_count	prefetcher.h	/^	uint64_t prefetch_call_count = 0;$/;"	m	class:prefetcher_t
+tags:prefetcher_t	prefetcher.cc	/^prefetcher_t::prefetcher_t(mmu_t* _mmu, processor_t* _proc)$/;"	f	class:prefetcher_t
+tags:prefetcher_t	prefetcher.h	/^class prefetcher_t$/;"	c
+tags:proc	prefetcher.h	/^	processor_t *proc;$/;"	m	class:prefetcher_t
+tags:sb	prefetcher.h	/^	struct Sbuffer_t *sb;$/;"	m	class:prefetcher_t	typeref:struct:prefetcher_t::Sbuffer_t
+tags:sb_available_clk	prefetcher.h	/^		long sb_available_clk;$/;"	m	struct:prefetcher_t::Sbuffer_t
+tags:sb_size	prefetcher.h	/^	int sb_size;$/;"	m	class:prefetcher_t
+tags:~prefetcher_t	prefetcher.cc	/^prefetcher_t::~prefetcher_t()$/;"	f	class:prefetcher_t

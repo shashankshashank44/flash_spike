@@ -1,0 +1,236 @@
+bbl loader
+rows at 0x1d3f00
+Cols at 0x1d4708
+vals at 0x2dc810
+Average Run Length of Data is 9.875722
+Vector size: 1
+#define add_r6_r0_imm_256_macro asm volatile (".word 0x10000313")
+#define vsetvli_r7_r6_e32_macro asm volatile (".word 0x8373d7")
+#define ld_r10_m_upper_20_macro asm volatile (".word 0xd2537")
+#define add_r10_r10_imm_m_lower_12_macro asm volatile (".word 0xea850513")
+#define ld_r13_v_upper_20_macro asm volatile (".word 0x1d26b7")
+#define add_r13_r13_imm_v_lower_12_macro asm volatile (".word 0xeb068693")
+#define ld_r28_y_upper_20_macro asm volatile (".word 0x1d3e37")
+#define add_r28_r28_imm_y_lower_12_macro asm volatile (".word 0x6d8e0e13")
+#define ld_r12_imm_0xfffff_macro asm volatile (".word 0xfffff637")
+#define sub_r10_r10_r12_macro asm volatile (".word 0x40c50533")
+#define sub_r11_r11_r12_macro asm volatile (".word 0x40c585b3")
+#define sub_r13_r13_r12_macro asm volatile (".word 0x40c686b3")
+#define sub_r28_r28_r12_macro asm volatile (".word 0x40ce0e33")
+#define vlwv_v10_r10_macro asm volatile (".word 0x2056507")
+#define vlwv_v13_r13_macro asm volatile (".word 0x206e687")
+#define vadd_vv_v11_v10_v13_vm_macro asm volatile (".word 0x2d505d7")
+#define vmul_vv_v11_v10_v13_vm_macro asm volatile (".word 0x96d525d7")
+#define vswv_r11_v11_macro asm volatile (".word 0x205e5a7")
+#define vswv_r28_v28_macro asm volatile (".word 0x20e6e27")
+#define add_10_10_imm_256_macro asm volatile (".word 0x2050513")
+#define add_11_11_imm_256_macro asm volatile (".word 0x2058593")
+#define add_10_10_imm_128_macro asm volatile (".word 0x1050513")
+#define add_11_11_imm_128_macro asm volatile (".word 0x1058593")
+#define add_10_10_imm_64_macro asm volatile (".word 0x850513")
+#define add_11_11_imm_64_macro asm volatile (".word 0x858593")
+#define add_11_11_imm_32_macro asm volatile (".word 0x458593")
+#define add_13_13_imm_256_macro asm volatile (".word 0x2068693")
+#define add_13_13_imm_128_macro asm volatile (".word 0x1068693")
+#define add_13_13_imm_64_macro asm volatile (".word 0x868693")
+#define add_28_28_imm_256_macro asm volatile (".word 0x20e0e13")
+#define add_28_28_imm_32_macro asm volatile (".word 0x4e0e13")
+#define vredsum_vs_v28_v28_v11_macro asm volatile (".word 0x2be2e57")
+#define cp_r29_r13_macro asm volatile (".word 0x68e93")
+#define cp_r13_r29_macro asm volatile (".word 0xe8693")
+#define reset_v28_r0_macro asm volatile (".word 0x5e004e57")
+#define move_r30_v28_macro asm volatile (".word 0x5fc06f57")
+#define sw_r11_r30_macro asm volatile (".word 0x1e5a023")
+#define ld_r12_imm_0xfffff_macro asm volatile (".word 0xfffff637")
+#define ld_r23_n_upper_20_macro asm volatile (".word 0xd0bb7")
+#define add_r23_r23_imm_n_lower_12_macro asm volatile (".word 0xd0b8b93")
+#define sub_r23_r23_r12_macro asm volatile (".word 0x40cb8bb3")
+#define ldw_r23_r23_imm_0_macro asm volatile (".word 0xbab83")
+#define set_r18_0_macro asm volatile (".word 0x913")
+#define set_r19_0_macro asm volatile (".word 0x993")
+#define set_r20_0_macro asm volatile (".word 0xa13")
+#define set_r21_0_macro asm volatile (".word 0xa93")
+#define set_r22_0_macro asm volatile (".word 0xb13")
+#define incr_r18_macro asm volatile (".word 0x190913")
+#define blt_r18_r23_imm_neg_4_macro asm volatile (".word 0xff794ee3")
+#define blt_r18_r23_imm_neg_20_macro asm volatile (".word 0xff7946e3")
+#define blt_r18_r23_imm_neg_40_macro asm volatile (".word 0xfd794ce3")
+#define blt_r18_r23_imm_neg_52_macro asm volatile (".word 0xfd7946e3")
+#define blt_r18_r23_imm_neg_60_macro asm volatile (".word 0xfd7942e3")
+#define blt_r18_r23_imm_neg_64_macro asm volatile (".word 0xfd7940e3")
+#define blt_r18_r23_imm_neg_68_macro asm volatile (".word 0xfb794ee3")
+#define blt_r18_r23_imm_neg_80_macro asm volatile (".word 0xfb7948e3")
+#define blt_r18_r23_imm_neg_84_macro asm volatile (".word 0xfb7946e3")
+#define blt_r18_r23_imm_neg_76_macro asm volatile (".word 0xfb794ae3")
+#define blt_r18_r23_imm_neg_92_macro asm volatile (".word 0xfb7942e3")
+#define add_r6_r0_imm_256_macro asm volatile (".word 0x10000313")
+#define add_r6_r0_imm_64_macro asm volatile (".word 0x4000313")
+#define add_r6_r0_imm_128_macro asm volatile (".word 0x8000313")
+#define vsetvli_r7_r6_e32_macro asm volatile (".word 0x8373d7")
+#define ld_r24_t_upper_20_macro asm volatile (".word 0xd0c37")
+#define add_r24_r24_imm_t_lower_12_macro asm volatile (".word 0x1cc0c13")
+#define sub_r24_r24_r12_macro asm volatile (".word 0x40cc0c33")
+#define stw_r24_r18_imm_0_macro asm volatile (".word 0x12c2023")
+#define stw_r24_r25_imm_0_macro asm volatile (".word 0x19c2023")
+#define ld_r26_nnz_upper_20_macro asm volatile (".word 0x39d37")
+#define add_r26_r26_imm_nnz_lower_12_macro asm volatile (".word 0xa39d0d13")
+#define sub_r26_r26_r12_macro asm volatile (".word 0x40cd0d33")
+#define ld_r25_bv_upper_20_macro asm volatile (".word 0x3e4cb7")
+#define add_r25_r25_imm_bv_lower_12_macro asm volatile (".word 0xd20c8c93")
+#define sub_r25_r25_r12_macro asm volatile (".word 0x40cc8cb3")
+#define ld_r24_rows_upper_20_macro asm volatile (".word 0x1d3c37")
+#define add_r24_r24_imm_rows_lower_12_macro asm volatile (".word 0xf00c0c13")
+#define sub_r24_r24_r12_macro asm volatile (".word 0x40cc0c33")
+#define ld_r27_vals_upper_20_macro asm volatile (".word 0x2dcdb7")
+#define add_r27_r27_imm_vals_lower_12_macro asm volatile (".word 0x810d8d93")
+#define sub_r27_r27_r12_macro asm volatile (".word 0x40cd8db3")
+#define ld_r27_b_vals_upper_20_macro asm volatile (".word 0x3ecdb7")
+#define add_r27_r27_imm_b_vals_lower_12_macro asm volatile (".word 0xf68d8d93")
+#define sub_r27_r27_r12_macro asm volatile (".word 0x40cd8db3")
+#define ld_r28_cols_upper_20_macro asm volatile (".word 0x1d4e37")
+#define add_r28_r28_imm_cols_lower_12_macro asm volatile (".word 0x708e0e13")
+#define sub_r28_r28_r12_macro asm volatile (".word 0x40ce0e33")
+#define ld_r24_rl_rows_upper_20_macro asm volatile (".word 0x4f5c37")
+#define add_r24_r24_imm_rl_rows_lower_12_macro asm volatile (".word 0x70c0c13")
+#define sub_r24_r24_r12_macro asm volatile (".word 0x40cc0c33")
+#define ld_r27_rl_vals_upper_20_macro asm volatile (".word 0x4f5db7")
+#define add_r27_r27_imm_rl_vals_lower_12_macro asm volatile (".word 0x898d8d93")
+#define sub_r27_r27_r12_macro asm volatile (".word 0x40cd8db3")
+#define ld_r28_rl_cols_upper_20_macro asm volatile (".word 0x5fde37")
+#define add_r28_r28_imm_rl_cols_lower_12_macro asm volatile (".word 0x9a0e0e13")
+#define sub_r28_r28_r12_macro asm volatile (".word 0x40ce0e33")
+#define ld_r29_v_upper_20_macro asm volatile (".word 0x1d2eb7")
+#define add_r29_r29_imm_v_lower_12_macro asm volatile (".word 0xeb0e8e93")
+#define sub_r29_r29_r12_macro asm volatile (".word 0x40ce8eb3")
+#define ld_r31_y_upper_20_macro asm volatile (".word 0x1d3fb7")
+#define add_r31_r31_imm_y_lower_12_macro asm volatile (".word 0x6d8f8f93")
+#define sub_r31_r31_r12_macro asm volatile (".word 0x40cf8fb3")
+#define incr_r24_by_4_macro asm volatile (".word 0x4c0c13")
+#define ldw_r25_r24_imm_0_macro asm volatile (".word 0xc2c83")
+#define ldw_r22_r24_imm_0_macro asm volatile (".word 0xc2b03")
+#define ldw_r26_r24_imm_0_macro asm volatile (".word 0xc2d03")
+#define sub_r25_r26_r25_macro asm volatile (".word 0x419d0cb3")
+#define srl_r26_r25_imm_3_macro asm volatile (".word 0x3cdd13")
+#define srl_r26_r23_imm_3_macro asm volatile (".word 0x3bdd13")
+#define srl_r26_r25_imm_2_macro asm volatile (".word 0x2cdd13")
+#define srl_r26_r25_imm_1_macro asm volatile (".word 0x1cdd13")
+#define incr_r19_macro asm volatile (".word 0x198993")
+#define blt_r19_r26_imm_neg_4_macro asm volatile (".word 0xffa9cee3")
+#define blt_r19_r26_imm_neg_12_macro asm volatile (".word 0xffa9cae3")
+#define blt_r19_r26_imm_neg_20_macro asm volatile (".word 0xffa9c6e3")
+#define blt_r19_r26_imm_neg_24_macro asm volatile (".word 0xffa9c4e3")
+#define blt_r19_r26_imm_neg_28_macro asm volatile (".word 0xffa9c2e3")
+#define blt_r19_r26_imm_neg_32_macro asm volatile (".word 0xffa9c0e3")
+#define blt_r19_r26_imm_neg_36_macro asm volatile (".word 0xfda9cee3")
+#define beq_r19_r26_imm_pos_12_macro asm volatile (".word 0x1a98663")
+#define beq_r19_r26_imm_pos_24_macro asm volatile (".word 0x1a98c63")
+#define beq_r19_r26_imm_pos_32_macro asm volatile (".word 0x3a98063")
+#define beq_r19_r26_imm_pos_36_macro asm volatile (".word 0x3a98263")
+#define beq_r19_r26_imm_pos_40_macro asm volatile (".word 0x3a98463")
+#define beq_r19_r26_imm_pos_48_macro asm volatile (".word 0x3a98863")
+#define nop asm volatile (".word 0x13")
+#define vlwv_v27_r27_macro asm volatile (".word 0x20ded87")
+#define vlwv_v28_r28_macro asm volatile (".word 0x20e6e07")
+#define vlwv_v27_r29_macro asm volatile (".word 0x20eed87")
+#define incr32_r29_macro asm volatile (".word 0x20e8e93")
+#define incr32_r27_macro asm volatile (".word 0x20d8d93")
+#define incr8_r27_macro asm volatile (".word 0x8d8d93")
+#define incr16_r27_macro asm volatile (".word 0x10d8d93")
+#define incr4_r31_macro asm volatile (".word 0x4f8f93")
+#define incr32_r28_macro asm volatile (".word 0x20e0e13")
+#define incr16_r28_macro asm volatile (".word 0x10e0e13")
+#define incr8_r28_macro asm volatile (".word 0x8e0e13")
+#define add_r29_r28_imm_0_macro asm volatile (".word 0xe0e93")
+#define add_r28_r29_imm_0_macro asm volatile (".word 0xe8e13")
+#define vsll_vi_v28_v28_imm_4_macro asm volatile (".word 0x97c13e57")
+#define vswv_r24_v28_macro asm volatile (".word 0x20c6e27")
+#define vswv_r31_v30_macro asm volatile (".word 0x20fefa7")
+#define vliwv_v29_r29_v28_macro asm volatile (".word 0xfceee87")
+#define vmul_vv_v29_v27_v29_vm_macro asm volatile (".word 0x97ddaed7")
+#define vredsum_vs_v30_v30_v29_macro asm volatile (".word 0x3dfafd7")
+#define reset_v30_r0_macro asm volatile (".word 0x5e004fd7")
+#define reset_v29_r0_macro asm volatile (".word 0x5e004ed7")
+#define vlwv_v29_r30_macro asm volatile (".word 0x20f6e87")
+#define ld_r30_helper_base_upper_20_macro asm volatile (".word 0xc0000f37")
+#define add_r30_r30_imm_helper_base_lower_12_macro asm volatile (".word 0xf0f13")
+#define sub_r30_r30_r12_macro asm volatile (".word 0x40cf0f33")
+#define stw_r30_r0_imm_0_macro asm volatile (".word 0xf2023")
+#define stw_r30_r22_imm_0_macro asm volatile (".word 0x16f2023")
+#define stw_r30_r0_imm_4_macro asm volatile (".word 0xf2223")
+#define stw_r30_r23_imm_8_macro asm volatile (".word 0x17f2423")
+#define stw_r30_r24_imm_12_macro asm volatile (".word 0x18f2623")
+#define stw_r30_r28_imm_16_macro asm volatile (".word 0x1cf2823")
+#define stw_r30_r29_imm_20_macro asm volatile (".word 0x1df2a23")
+#define stw_r30_r27_imm_24_macro asm volatile (".word 0x1bf2c23")
+#define stw_r30_r25_imm_28_macro asm volatile (".word 0x19f2e23")
+#define stw_r30_r0_imm_32_macro asm volatile (".word 0x20f2023")
+#define stw_r30_r26_imm_36_macro asm volatile (".word 0x3af2223")
+#define add_r22_r0_imm_1_macro asm volatile (".word 0x100b13")
+#define add_r22_r0_imm_2_macro asm volatile (".word 0x200b13")
+#define stw_r30_r22_imm_48_macro asm volatile (".word 0x36f2823")
+#define stw_r30_r22_imm_4_macro asm volatile (".word 0x16f2223")
+#define add_r30_r30_imm_1024_macro asm volatile (".word 0x400f0f13")
+#define add_r28_r29_imm_0_macro asm volatile (".word 0xe8e13")
+#define ld_r31_prefetch_base_upper_20_macro asm volatile (".word 0xc0100fb7")
+#define add_r31_r31_imm_prefetch_base_lower_12_macro asm volatile (".word 0xf8f93")
+#define sub_r31_r31_r12_macro asm volatile (".word 0x40cf8fb3")
+#define stw_r31_r28_imm_0_macro asm volatile (".word 0x1cfa023")
+#define stw_r31_r27_imm_4_macro asm volatile (".word 0x1bfa223")
+#define stw_r31_r29_imm_8_macro asm volatile (".word 0x1dfa423")
+last_op is 6555438
+addr:0 val:0
+addr:4 val:0
+addr:8 val:512
+addr:12 val:1916672
+addr:16 val:1918728
+addr:20 val:1912496
+addr:24 val:3000336
+addr:28 val:4082976
+addr:32 val:0
+addr:36 val:236089
+addr:48 val:1
+cycles:317049348:315897616;e-s:1151732
+Input: /home/UNT/sa0659/RISCV/spike/riscv-flash/tests/spmv/512/temp_dense_10.dat; Matrix Dim: 512 by 512; NNZ: 236089; Sparsity: 0.0993919; Cycles: 1151732
+Last expected: 6555438
+Last output: 0
+Failed!
+Number of Instructions Executed: 314065799
+Number of Cycles taken: 317205768
+Buffer wait cycles: 94
+Memory wait cycles: 140
+Total Prefetch resets:0
+Total Prefetches:0
+Total Prefetch hits:0
+Flash Cache hits:233923
+Flash Cache misses:16800
+Flash Cache dirt evicts:15754
+Total Request:250723
+ROI Total Request:124
+ROI Flash Cache hits:115
+ROI Flash Cache misses:9
+BC requests:119
+BC requests hits:111
+BC requests misses:8
+Prefetch wait times:0
+Total Prefetch resets:0
+Total Prefetches:0
+Total Prefetch hits:0
+Flash Cache hits:0
+Flash Cache misses:0
+Flash Cache dirt evicts:0
+Total Request:0
+ROI Total Request:0
+ROI Flash Cache hits:0
+ROI Flash Cache misses:0
+BC requests:0
+BC requests hits:0
+BC requests misses:0
+Prefetch wait times:0
+D$ Bytes Read:            95504315
+D$ Bytes Written:         78006412
+D$ Read Accesses:         28146281
+D$ Write Accesses:        20293843
+D$ Read Misses:           86513
+D$ Write Misses:          164210
+D$ Writebacks:            165655
+D$ Miss Rate:             0.518%

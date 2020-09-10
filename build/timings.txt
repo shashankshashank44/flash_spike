@@ -1,0 +1,3 @@
+% mnemonic opcode delay
+VLW_V 0x10006007 1
+VLWU_V 0x6007 10

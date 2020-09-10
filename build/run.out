@@ -1,0 +1,23 @@
+bbl loader
+Program requires five args:
+Arg 1: 0 or 1 value -- 0 if only compile, 1 if compile+exec
+Arg 2: 0 - dense matrix, 1 - CSR sparse matrix, 2 - TAMU COO sparse matrix
+Arg 3: matrix data file as input.
+Arg 4: 0 or 1 value -- 0 if doing dense, 1 if doing sparse
+Arg 5: 0/1/2 value -- 0 if using scalar, 1 if using vectors, 2 if using hardware helper (2 is valid only with sparse)
+L2$ Bytes Read:            50368
+L2$ Bytes Written:         32
+L2$ Read Accesses:         1574
+L2$ Write Accesses:        1
+L2$ Read Misses:           1574
+L2$ Write Misses:          0
+L2$ Writebacks:            0
+L2$ Miss Rate:             99.937%
+D$ Bytes Read:            430851
+D$ Bytes Written:         90894
+D$ Read Accesses:         109980
+D$ Write Accesses:        25216
+D$ Read Misses:           92
+D$ Write Misses:          1482
+D$ Writebacks:            1
+D$ Miss Rate:             1.164%

@@ -1,0 +1,1388 @@
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/1138_bus.mtx; Matrix Dim: 1138 by 1138; NNZ: 2592; Sparsity: 0.997999; Took 19700 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/1138_bus.mtx; Matrix Dim: 1138 by 1138; NNZ: 2592; Sparsity: 0.997999; Took 28212 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/494_bus.mtx; Matrix Dim: 494 by 494; NNZ: 1077; Sparsity: 0.995587; Took 12031 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/494_bus.mtx; Matrix Dim: 494 by 494; NNZ: 1077; Sparsity: 0.995587; Took 12217 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/662_bus.mtx; Matrix Dim: 662 by 662; NNZ: 1568; Sparsity: 0.996422; Took 16335 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/662_bus.mtx; Matrix Dim: 662 by 662; NNZ: 1568; Sparsity: 0.996422; Took 12661 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/685_bus.mtx; Matrix Dim: 685 by 685; NNZ: 1967; Sparsity: 0.995808; Took 16607 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/685_bus.mtx; Matrix Dim: 685 by 685; NNZ: 1967; Sparsity: 0.995808; Took 12997 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/arc130.mtx; Matrix Dim: 130 by 130; NNZ: 1198; Sparsity: 0.929112; Took 3874 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/arc130.mtx; Matrix Dim: 130 by 130; NNZ: 1198; Sparsity: 0.929112; Took 3288 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/ash292.mtx; Matrix Dim: 292 by 292; NNZ: 1250; Sparsity: 0.98534; Took 7335 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/ash292.mtx; Matrix Dim: 292 by 292; NNZ: 1250; Sparsity: 0.98534; Took 7389 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/ash85.mtx; Matrix Dim: 85 by 85; NNZ: 304; Sparsity: 0.957924; Took 2144 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/ash85.mtx; Matrix Dim: 85 by 85; NNZ: 304; Sparsity: 0.957924; Took 1854 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcspwr01.mtx; Matrix Dim: 39 by 39; NNZ: 85; Sparsity: 0.944116; Took 1195 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcspwr01.mtx; Matrix Dim: 39 by 39; NNZ: 85; Sparsity: 0.944116; Took 1043 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcspwr02.mtx; Matrix Dim: 49 by 49; NNZ: 108; Sparsity: 0.955019; Took 1231 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcspwr02.mtx; Matrix Dim: 49 by 49; NNZ: 108; Sparsity: 0.955019; Took 1098 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcspwr03.mtx; Matrix Dim: 118 by 118; NNZ: 297; Sparsity: 0.97867; Took 2887 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcspwr03.mtx; Matrix Dim: 118 by 118; NNZ: 297; Sparsity: 0.97867; Took 2547 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcspwr04.mtx; Matrix Dim: 274 by 274; NNZ: 943; Sparsity: 0.987439; Took 7318 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcspwr04.mtx; Matrix Dim: 274 by 274; NNZ: 943; Sparsity: 0.987439; Took 7081 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcspwr05.mtx; Matrix Dim: 443 by 443; NNZ: 1033; Sparsity: 0.994736; Took 11267 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcspwr05.mtx; Matrix Dim: 443 by 443; NNZ: 1033; Sparsity: 0.994736; Took 11005 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcspwr06.mtx; Matrix Dim: 1454 by 1454; NNZ: 3377; Sparsity: 0.998403; Took 11124 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcspwr06.mtx; Matrix Dim: 1454 by 1454; NNZ: 3377; Sparsity: 0.998403; Took 16916 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcspwr07.mtx; Matrix Dim: 1612 by 1612; NNZ: 3718; Sparsity: 0.998569; Took 14359 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcspwr07.mtx; Matrix Dim: 1612 by 1612; NNZ: 3718; Sparsity: 0.998569; Took 29605 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcspwr08.mtx; Matrix Dim: 1624 by 1624; NNZ: 3837; Sparsity: 0.998545; Took 6100 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcspwr08.mtx; Matrix Dim: 1624 by 1624; NNZ: 3837; Sparsity: 0.998545; Took 24084 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcspwr09.mtx; Matrix Dim: 1723 by 1723; NNZ: 4117; Sparsity: 0.998613; Took 7255 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcspwr09.mtx; Matrix Dim: 1723 by 1723; NNZ: 4117; Sparsity: 0.998613; Took 27749 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk01.mtx; Matrix Dim: 48 by 48; NNZ: 224; Sparsity: 0.902778; Took 1227 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk01.mtx; Matrix Dim: 48 by 48; NNZ: 224; Sparsity: 0.902778; Took 1091 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk02.mtx; Matrix Dim: 66 by 66; NNZ: 1433; Sparsity: 0.671028; Took 3126 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk02.mtx; Matrix Dim: 66 by 66; NNZ: 1433; Sparsity: 0.671028; Took 2455 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk03.mtx; Matrix Dim: 112 by 112; NNZ: 376; Sparsity: 0.970026; Took 2903 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk03.mtx; Matrix Dim: 112 by 112; NNZ: 376; Sparsity: 0.970026; Took 2588 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk04.mtx; Matrix Dim: 132 by 132; NNZ: 1890; Sparsity: 0.891529; Took 4834 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk04.mtx; Matrix Dim: 132 by 132; NNZ: 1890; Sparsity: 0.891529; Took 3969 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk05.mtx; Matrix Dim: 153 by 153; NNZ: 1288; Sparsity: 0.944978; Took 4518 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk05.mtx; Matrix Dim: 153 by 153; NNZ: 1288; Sparsity: 0.944978; Took 3836 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk06.mtx; Matrix Dim: 420 by 420; NNZ: 4119; Sparsity: 0.97665; Took 16451 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk06.mtx; Matrix Dim: 420 by 420; NNZ: 4119; Sparsity: 0.97665; Took 16481 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk07.mtx; Matrix Dim: 420 by 420; NNZ: 4119; Sparsity: 0.97665; Took 16451 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk07.mtx; Matrix Dim: 420 by 420; NNZ: 4119; Sparsity: 0.97665; Took 16481 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk08.mtx; Matrix Dim: 1074 by 1074; NNZ: 7017; Sparsity: 0.993917; Took 13591 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk08.mtx; Matrix Dim: 1074 by 1074; NNZ: 7017; Sparsity: 0.993917; Took 29413 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk09.mtx; Matrix Dim: 1083 by 1083; NNZ: 9760; Sparsity: 0.991679; Took 13556 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk09.mtx; Matrix Dim: 1083 by 1083; NNZ: 9760; Sparsity: 0.991679; Took 25940 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk10.mtx; Matrix Dim: 1086 by 1086; NNZ: 11578; Sparsity: 0.990183; Took 12983 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk10.mtx; Matrix Dim: 1086 by 1086; NNZ: 11578; Sparsity: 0.990183; Took 22437 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk11.mtx; Matrix Dim: 1473 by 1473; NNZ: 17857; Sparsity: 0.99177; Took 9367 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk11.mtx; Matrix Dim: 1473 by 1473; NNZ: 17857; Sparsity: 0.99177; Took 38949 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk12.mtx; Matrix Dim: 1473 by 1473; NNZ: 17857; Sparsity: 0.99177; Took 9367 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk12.mtx; Matrix Dim: 1473 by 1473; NNZ: 17857; Sparsity: 0.99177; Took 38949 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk13.mtx; Matrix Dim: 2003 by 2003; NNZ: 42433; Sparsity: 0.989424; Took 14740 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk13.mtx; Matrix Dim: 2003 by 2003; NNZ: 42433; Sparsity: 0.989424; Took 88852 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk14.mtx; Matrix Dim: 1806 by 1806; NNZ: 32630; Sparsity: 0.989996; Took 16532 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk14.mtx; Matrix Dim: 1806 by 1806; NNZ: 32630; Sparsity: 0.989996; Took 69332 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk15.mtx; Matrix Dim: 3948 by 3948; NNZ: 60882; Sparsity: 0.996094; Took 20116 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk15.mtx; Matrix Dim: 3948 by 3948; NNZ: 60882; Sparsity: 0.996094; Took 139668 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk19.mtx; Matrix Dim: 817 by 817; NNZ: 3817; Sparsity: 0.994282; Took 25383 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk19.mtx; Matrix Dim: 817 by 817; NNZ: 3817; Sparsity: 0.994282; Took 25621 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk20.mtx; Matrix Dim: 485 by 485; NNZ: 1810; Sparsity: 0.992305; Took 11775 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk20.mtx; Matrix Dim: 485 by 485; NNZ: 1810; Sparsity: 0.992305; Took 11973 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk22.mtx; Matrix Dim: 138 by 138; NNZ: 414; Sparsity: 0.978261; Took 3366 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk22.mtx; Matrix Dim: 138 by 138; NNZ: 414; Sparsity: 0.978261; Took 2966 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk27.mtx; Matrix Dim: 1224 by 1224; NNZ: 28363; Sparsity: 0.981068; Took 23252 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstk27.mtx; Matrix Dim: 1224 by 1224; NNZ: 28363; Sparsity: 0.981068; Took 51284 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstm01.mtx; Matrix Dim: 48 by 48; NNZ: 48; Sparsity: 0.979167; Took 1207 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstm01.mtx; Matrix Dim: 48 by 48; NNZ: 48; Sparsity: 0.979167; Took 1077 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstm02.mtx; Matrix Dim: 66 by 66; NNZ: 0; Sparsity: 1; Took 912 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstm02.mtx; Matrix Dim: 66 by 66; NNZ: 0; Sparsity: 1; Took 926 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstm03.mtx; Matrix Dim: 112 by 112; NNZ: 92; Sparsity: 0.992666; Took 2682 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstm03.mtx; Matrix Dim: 112 by 112; NNZ: 92; Sparsity: 0.992666; Took 2375 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstm04.mtx; Matrix Dim: 132 by 132; NNZ: 66; Sparsity: 0.996212; Took 2497 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstm04.mtx; Matrix Dim: 132 by 132; NNZ: 66; Sparsity: 0.996212; Took 2313 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstm05.mtx; Matrix Dim: 153 by 153; NNZ: 0; Sparsity: 1; Took 2045 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstm05.mtx; Matrix Dim: 153 by 153; NNZ: 0; Sparsity: 1; Took 2059 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstm06.mtx; Matrix Dim: 420 by 420; NNZ: 400; Sparsity: 0.997732; Took 10615 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstm06.mtx; Matrix Dim: 420 by 420; NNZ: 400; Sparsity: 0.997732; Took 10230 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstm07.mtx; Matrix Dim: 420 by 420; NNZ: 2939; Sparsity: 0.983339; Took 13403 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstm07.mtx; Matrix Dim: 420 by 420; NNZ: 2939; Sparsity: 0.983339; Took 13354 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstm08.mtx; Matrix Dim: 1074 by 1074; NNZ: 946; Sparsity: 0.99918; Took 33319 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstm08.mtx; Matrix Dim: 1074 by 1074; NNZ: 946; Sparsity: 0.99918; Took 34821 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstm09.mtx; Matrix Dim: 1083 by 1083; NNZ: 722; Sparsity: 0.999384; Took 28852 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstm09.mtx; Matrix Dim: 1083 by 1083; NNZ: 722; Sparsity: 0.999384; Took 29172 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstm10.mtx; Matrix Dim: 1086 by 1086; NNZ: 11589; Sparsity: 0.990174; Took 13111 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstm10.mtx; Matrix Dim: 1086 by 1086; NNZ: 11589; Sparsity: 0.990174; Took 22309 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstm11.mtx; Matrix Dim: 1473 by 1473; NNZ: 100; Sparsity: 0.999954; Took 27447 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstm11.mtx; Matrix Dim: 1473 by 1473; NNZ: 100; Sparsity: 0.999954; Took 27033 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstm12.mtx; Matrix Dim: 1473 by 1473; NNZ: 2301; Sparsity: 0.998939; Took 19927 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstm12.mtx; Matrix Dim: 1473 by 1473; NNZ: 2301; Sparsity: 0.998939; Took 20242 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstm19.mtx; Matrix Dim: 817 by 817; NNZ: 817; Sparsity: 0.998776; Took 19751 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstm19.mtx; Matrix Dim: 817 by 817; NNZ: 817; Sparsity: 0.998776; Took 14565 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstm20.mtx; Matrix Dim: 485 by 485; NNZ: 485; Sparsity: 0.997938; Took 11775 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstm20.mtx; Matrix Dim: 485 by 485; NNZ: 485; Sparsity: 0.997938; Took 11973 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstm22.mtx; Matrix Dim: 138 by 138; NNZ: 4; Sparsity: 0.99979; Took 1892 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstm22.mtx; Matrix Dim: 138 by 138; NNZ: 4; Sparsity: 0.99979; Took 1894 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstm27.mtx; Matrix Dim: 1224 by 1224; NNZ: 21258; Sparsity: 0.985811; Took 19476 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bcsstm27.mtx; Matrix Dim: 1224 by 1224; NNZ: 21258; Sparsity: 0.985811; Took 38612 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bfwa398.mtx; Matrix Dim: 398 by 398; NNZ: 2216; Sparsity: 0.98601; Took 9868 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bfwa398.mtx; Matrix Dim: 398 by 398; NNZ: 2216; Sparsity: 0.98601; Took 10088 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bfwa62.mtx; Matrix Dim: 62 by 62; NNZ: 299; Sparsity: 0.922216; Took 1542 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bfwa62.mtx; Matrix Dim: 62 by 62; NNZ: 299; Sparsity: 0.922216; Took 1370 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bfwa782.mtx; Matrix Dim: 782 by 782; NNZ: 4468; Sparsity: 0.992694; Took 24468 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bfwa782.mtx; Matrix Dim: 782 by 782; NNZ: 4468; Sparsity: 0.992694; Took 24532 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bfwb398.mtx; Matrix Dim: 398 by 398; NNZ: 1654; Sparsity: 0.989558; Took 9748 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bfwb398.mtx; Matrix Dim: 398 by 398; NNZ: 1654; Sparsity: 0.989558; Took 10008 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bfwb62.mtx; Matrix Dim: 62 by 62; NNZ: 202; Sparsity: 0.947451; Took 1542 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bfwb62.mtx; Matrix Dim: 62 by 62; NNZ: 202; Sparsity: 0.947451; Took 1370 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bfwb782.mtx; Matrix Dim: 782 by 782; NNZ: 3382; Sparsity: 0.99447; Took 24340 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bfwb782.mtx; Matrix Dim: 782 by 782; NNZ: 3382; Sparsity: 0.99447; Took 24324 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bp_0.mtx; Matrix Dim: 822 by 822; NNZ: 2709; Sparsity: 0.995991; Took 27623 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bp_0.mtx; Matrix Dim: 822 by 822; NNZ: 2709; Sparsity: 0.995991; Took 26677 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bp_1000.mtx; Matrix Dim: 822 by 822; NNZ: 3386; Sparsity: 0.994989; Took 28135 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bp_1000.mtx; Matrix Dim: 822 by 822; NNZ: 3386; Sparsity: 0.994989; Took 27029 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bp_1200.mtx; Matrix Dim: 822 by 822; NNZ: 3417; Sparsity: 0.994943; Took 28087 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bp_1200.mtx; Matrix Dim: 822 by 822; NNZ: 3417; Sparsity: 0.994943; Took 26949 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bp_1400.mtx; Matrix Dim: 822 by 822; NNZ: 3405; Sparsity: 0.994961; Took 27831 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bp_1400.mtx; Matrix Dim: 822 by 822; NNZ: 3405; Sparsity: 0.994961; Took 26965 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bp_1600.mtx; Matrix Dim: 822 by 822; NNZ: 3450; Sparsity: 0.994894; Took 28311 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bp_1600.mtx; Matrix Dim: 822 by 822; NNZ: 3450; Sparsity: 0.994894; Took 27109 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bp_200.mtx; Matrix Dim: 822 by 822; NNZ: 3046; Sparsity: 0.995492; Took 28039 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bp_200.mtx; Matrix Dim: 822 by 822; NNZ: 3046; Sparsity: 0.995492; Took 26917 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bp_400.mtx; Matrix Dim: 822 by 822; NNZ: 3135; Sparsity: 0.99536; Took 27831 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bp_400.mtx; Matrix Dim: 822 by 822; NNZ: 3135; Sparsity: 0.99536; Took 26949 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bp_600.mtx; Matrix Dim: 822 by 822; NNZ: 3257; Sparsity: 0.99518; Took 28183 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bp_600.mtx; Matrix Dim: 822 by 822; NNZ: 3257; Sparsity: 0.99518; Took 27061 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bp_800.mtx; Matrix Dim: 822 by 822; NNZ: 3353; Sparsity: 0.995038; Took 28343 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bp_800.mtx; Matrix Dim: 822 by 822; NNZ: 3353; Sparsity: 0.995038; Took 27125 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bwm200.mtx; Matrix Dim: 200 by 200; NNZ: 796; Sparsity: 0.9801; Took 5424 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/bwm200.mtx; Matrix Dim: 200 by 200; NNZ: 796; Sparsity: 0.9801; Took 4829 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_1054.mtx; Matrix Dim: 1054 by 1054; NNZ: 6625; Sparsity: 0.994036; Took 34468 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_1054.mtx; Matrix Dim: 1054 by 1054; NNZ: 6625; Sparsity: 0.994036; Took 33876 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_1072.mtx; Matrix Dim: 1072 by 1072; NNZ: 6758; Sparsity: 0.994119; Took 35175 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_1072.mtx; Matrix Dim: 1072 by 1072; NNZ: 6758; Sparsity: 0.994119; Took 34549 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_144.mtx; Matrix Dim: 144 by 144; NNZ: 720; Sparsity: 0.965278; Took 3559 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_144.mtx; Matrix Dim: 144 by 144; NNZ: 720; Sparsity: 0.965278; Took 3092 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_161.mtx; Matrix Dim: 161 by 161; NNZ: 769; Sparsity: 0.970333; Took 3988 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_161.mtx; Matrix Dim: 161 by 161; NNZ: 769; Sparsity: 0.970333; Took 3464 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_187.mtx; Matrix Dim: 187 by 187; NNZ: 839; Sparsity: 0.976007; Took 5076 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_187.mtx; Matrix Dim: 187 by 187; NNZ: 839; Sparsity: 0.976007; Took 4529 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_229.mtx; Matrix Dim: 229 by 229; NNZ: 1003; Sparsity: 0.980874; Took 6396 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_229.mtx; Matrix Dim: 229 by 229; NNZ: 1003; Sparsity: 0.980874; Took 5722 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_24.mtx; Matrix Dim: 24 by 24; NNZ: 92; Sparsity: 0.840278; Took 632 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_24.mtx; Matrix Dim: 24 by 24; NNZ: 92; Sparsity: 0.840278; Took 576 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_256.mtx; Matrix Dim: 256 by 256; NNZ: 1586; Sparsity: 0.9758; Took 6929 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_256.mtx; Matrix Dim: 256 by 256; NNZ: 1586; Sparsity: 0.9758; Took 6730 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_268.mtx; Matrix Dim: 268 by 268; NNZ: 1675; Sparsity: 0.976679; Took 7395 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_268.mtx; Matrix Dim: 268 by 268; NNZ: 1675; Sparsity: 0.976679; Took 7469 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_292.mtx; Matrix Dim: 292 by 292; NNZ: 1416; Sparsity: 0.983393; Took 7707 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_292.mtx; Matrix Dim: 292 by 292; NNZ: 1416; Sparsity: 0.983393; Took 7757 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_445.mtx; Matrix Dim: 445 by 445; NNZ: 2127; Sparsity: 0.989259; Took 11279 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_445.mtx; Matrix Dim: 445 by 445; NNZ: 2127; Sparsity: 0.989259; Took 11345 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_61.mtx; Matrix Dim: 61 by 61; NNZ: 309; Sparsity: 0.916958; Took 1691 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_61.mtx; Matrix Dim: 61 by 61; NNZ: 309; Sparsity: 0.916958; Took 1409 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_62.mtx; Matrix Dim: 62 by 62; NNZ: 140; Sparsity: 0.96358; Took 1543 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_62.mtx; Matrix Dim: 62 by 62; NNZ: 140; Sparsity: 0.96358; Took 1371 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_634.mtx; Matrix Dim: 634 by 634; NNZ: 3931; Sparsity: 0.99022; Took 18375 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_634.mtx; Matrix Dim: 634 by 634; NNZ: 3931; Sparsity: 0.99022; Took 14213 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_715.mtx; Matrix Dim: 715 by 715; NNZ: 3690; Sparsity: 0.992782; Took 31495 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_715.mtx; Matrix Dim: 715 by 715; NNZ: 3690; Sparsity: 0.992782; Took 33261 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_73.mtx; Matrix Dim: 73 by 73; NNZ: 225; Sparsity: 0.957778; Took 1816 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_73.mtx; Matrix Dim: 73 by 73; NNZ: 225; Sparsity: 0.957778; Took 1608 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_838.mtx; Matrix Dim: 838 by 838; NNZ: 5424; Sparsity: 0.992276; Took 31303 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_838.mtx; Matrix Dim: 838 by 838; NNZ: 5424; Sparsity: 0.992276; Took 37557 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_96.mtx; Matrix Dim: 96 by 96; NNZ: 432; Sparsity: 0.953125; Took 2357 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/can_96.mtx; Matrix Dim: 96 by 96; NNZ: 432; Sparsity: 0.953125; Took 2083 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/cdde1.mtx; Matrix Dim: 961 by 961; NNZ: 4681; Sparsity: 0.994931; Took 29799 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/cdde1.mtx; Matrix Dim: 961 by 961; NNZ: 4681; Sparsity: 0.994931; Took 29877 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/cdde2.mtx; Matrix Dim: 961 by 961; NNZ: 3751; Sparsity: 0.995938; Took 29799 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/cdde2.mtx; Matrix Dim: 961 by 961; NNZ: 3751; Sparsity: 0.995938; Took 29877 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/cdde3.mtx; Matrix Dim: 961 by 961; NNZ: 4681; Sparsity: 0.994931; Took 29799 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/cdde3.mtx; Matrix Dim: 961 by 961; NNZ: 4681; Sparsity: 0.994931; Took 29877 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/cdde4.mtx; Matrix Dim: 961 by 961; NNZ: 3751; Sparsity: 0.995938; Took 29799 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/cdde4.mtx; Matrix Dim: 961 by 961; NNZ: 3751; Sparsity: 0.995938; Took 29877 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/cdde5.mtx; Matrix Dim: 961 by 961; NNZ: 4681; Sparsity: 0.994931; Took 29799 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/cdde5.mtx; Matrix Dim: 961 by 961; NNZ: 4681; Sparsity: 0.994931; Took 29877 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/cdde6.mtx; Matrix Dim: 961 by 961; NNZ: 3751; Sparsity: 0.995938; Took 29799 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/cdde6.mtx; Matrix Dim: 961 by 961; NNZ: 3751; Sparsity: 0.995938; Took 29877 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/ck104.mtx; Matrix Dim: 104 by 104; NNZ: 468; Sparsity: 0.956731; Took 2550 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/ck104.mtx; Matrix Dim: 104 by 104; NNZ: 468; Sparsity: 0.956731; Took 2252 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/ck400.mtx; Matrix Dim: 400 by 400; NNZ: 1445; Sparsity: 0.990969; Took 9259 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/ck400.mtx; Matrix Dim: 400 by 400; NNZ: 1445; Sparsity: 0.990969; Took 8726 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/ck656.mtx; Matrix Dim: 656 by 656; NNZ: 1701; Sparsity: 0.996047; Took 13319 cycles
+Passed!
+Helper
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/curtis54.mtx; Matrix Dim: 54 by 54; NNZ: 291; Sparsity: 0.900206; Took 1391 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/curtis54.mtx; Matrix Dim: 54 by 54; NNZ: 291; Sparsity: 0.900206; Took 1231 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dw256A.mtx; Matrix Dim: 512 by 512; NNZ: 464; Sparsity: 0.99823; Took 12243 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dw256A.mtx; Matrix Dim: 512 by 512; NNZ: 464; Sparsity: 0.99823; Took 12176 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dw256B.mtx; Matrix Dim: 512 by 512; NNZ: 33; Sparsity: 0.999874; Took 8755 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dw256B.mtx; Matrix Dim: 512 by 512; NNZ: 33; Sparsity: 0.999874; Took 8832 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_1005.mtx; Matrix Dim: 1005 by 1005; NNZ: 4813; Sparsity: 0.995235; Took 33223 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_1005.mtx; Matrix Dim: 1005 by 1005; NNZ: 4813; Sparsity: 0.995235; Took 32645 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_1007.mtx; Matrix Dim: 1007 by 1007; NNZ: 4791; Sparsity: 0.995275; Took 31079 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_1007.mtx; Matrix Dim: 1007 by 1007; NNZ: 4791; Sparsity: 0.995275; Took 31349 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_1242.mtx; Matrix Dim: 1242 by 1242; NNZ: 5834; Sparsity: 0.996218; Took 11479 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_1242.mtx; Matrix Dim: 1242 by 1242; NNZ: 5834; Sparsity: 0.996218; Took 22757 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_162.mtx; Matrix Dim: 162 by 162; NNZ: 672; Sparsity: 0.974394; Took 3992 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_162.mtx; Matrix Dim: 162 by 162; NNZ: 672; Sparsity: 0.974394; Took 3471 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_193.mtx; Matrix Dim: 193 by 193; NNZ: 1843; Sparsity: 0.950522; Took 7606 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_193.mtx; Matrix Dim: 193 by 193; NNZ: 1843; Sparsity: 0.950522; Took 6702 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_198.mtx; Matrix Dim: 198 by 198; NNZ: 795; Sparsity: 0.979721; Took 5362 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_198.mtx; Matrix Dim: 198 by 198; NNZ: 795; Sparsity: 0.979721; Took 4782 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_209.mtx; Matrix Dim: 209 by 209; NNZ: 976; Sparsity: 0.977656; Took 5821 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_209.mtx; Matrix Dim: 209 by 209; NNZ: 976; Sparsity: 0.977656; Took 5165 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_221.mtx; Matrix Dim: 221 by 221; NNZ: 925; Sparsity: 0.981061; Took 6198 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_221.mtx; Matrix Dim: 221 by 221; NNZ: 925; Sparsity: 0.981061; Took 5538 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_234.mtx; Matrix Dim: 234 by 234; NNZ: 534; Sparsity: 0.990248; Took 6505 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_234.mtx; Matrix Dim: 234 by 234; NNZ: 534; Sparsity: 0.990248; Took 5819 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_245.mtx; Matrix Dim: 245 by 245; NNZ: 853; Sparsity: 0.985789; Took 11153 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_245.mtx; Matrix Dim: 245 by 245; NNZ: 853; Sparsity: 0.985789; Took 10206 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_307.mtx; Matrix Dim: 307 by 307; NNZ: 1415; Sparsity: 0.984987; Took 7768 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_307.mtx; Matrix Dim: 307 by 307; NNZ: 1415; Sparsity: 0.984987; Took 7900 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_310.mtx; Matrix Dim: 310 by 310; NNZ: 1379; Sparsity: 0.98565; Took 7915 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_310.mtx; Matrix Dim: 310 by 310; NNZ: 1379; Sparsity: 0.98565; Took 8041 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_346.mtx; Matrix Dim: 346 by 346; NNZ: 1786; Sparsity: 0.985081; Took 9243 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_346.mtx; Matrix Dim: 346 by 346; NNZ: 1786; Sparsity: 0.985081; Took 9081 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_361.mtx; Matrix Dim: 361 by 361; NNZ: 1657; Sparsity: 0.987285; Took 9204 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_361.mtx; Matrix Dim: 361 by 361; NNZ: 1657; Sparsity: 0.987285; Took 9352 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_419.mtx; Matrix Dim: 419 by 419; NNZ: 1991; Sparsity: 0.988659; Took 11075 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_419.mtx; Matrix Dim: 419 by 419; NNZ: 1991; Sparsity: 0.988659; Took 11201 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_492.mtx; Matrix Dim: 492 by 492; NNZ: 1824; Sparsity: 0.992465; Took 12343 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_492.mtx; Matrix Dim: 492 by 492; NNZ: 1824; Sparsity: 0.992465; Took 12241 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_503.mtx; Matrix Dim: 503 by 503; NNZ: 3265; Sparsity: 0.987095; Took 34091 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_503.mtx; Matrix Dim: 503 by 503; NNZ: 3265; Sparsity: 0.987095; Took 34961 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_512.mtx; Matrix Dim: 512 by 512; NNZ: 2007; Sparsity: 0.992344; Took 12703 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_512.mtx; Matrix Dim: 512 by 512; NNZ: 2007; Sparsity: 0.992344; Took 12665 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_59.mtx; Matrix Dim: 59 by 59; NNZ: 163; Sparsity: 0.953174; Took 1617 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_59.mtx; Matrix Dim: 59 by 59; NNZ: 163; Sparsity: 0.953174; Took 1307 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_592.mtx; Matrix Dim: 592 by 592; NNZ: 2848; Sparsity: 0.991874; Took 14303 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_592.mtx; Matrix Dim: 592 by 592; NNZ: 2848; Sparsity: 0.991874; Took 10549 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_607.mtx; Matrix Dim: 607 by 607; NNZ: 2869; Sparsity: 0.992213; Took 15271 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_607.mtx; Matrix Dim: 607 by 607; NNZ: 2869; Sparsity: 0.992213; Took 11349 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_66.mtx; Matrix Dim: 66 by 66; NNZ: 193; Sparsity: 0.955693; Took 1687 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_66.mtx; Matrix Dim: 66 by 66; NNZ: 193; Sparsity: 0.955693; Took 1454 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_72.mtx; Matrix Dim: 72 by 72; NNZ: 147; Sparsity: 0.971644; Took 1782 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_72.mtx; Matrix Dim: 72 by 72; NNZ: 147; Sparsity: 0.971644; Took 1580 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_758.mtx; Matrix Dim: 758 by 758; NNZ: 3376; Sparsity: 0.994124; Took 24367 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_758.mtx; Matrix Dim: 758 by 758; NNZ: 3376; Sparsity: 0.994124; Took 32261 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_869.mtx; Matrix Dim: 869 by 869; NNZ: 4077; Sparsity: 0.994601; Took 26775 cycles
+Passed!
+Helper
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_87.mtx; Matrix Dim: 87 by 87; NNZ: 314; Sparsity: 0.958515; Took 2251 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_87.mtx; Matrix Dim: 87 by 87; NNZ: 314; Sparsity: 0.958515; Took 1903 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_878.mtx; Matrix Dim: 878 by 878; NNZ: 4163; Sparsity: 0.9946; Took 40375 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_878.mtx; Matrix Dim: 878 by 878; NNZ: 4163; Sparsity: 0.9946; Took 40229 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_918.mtx; Matrix Dim: 918 by 918; NNZ: 4151; Sparsity: 0.995074; Took 28436 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_918.mtx; Matrix Dim: 918 by 918; NNZ: 4151; Sparsity: 0.995074; Took 28692 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_992.mtx; Matrix Dim: 992 by 992; NNZ: 8868; Sparsity: 0.990988; Took 45079 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/dwt_992.mtx; Matrix Dim: 992 by 992; NNZ: 8868; Sparsity: 0.990988; Took 38677 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/epb0.mtx; Matrix Dim: 1794 by 1794; NNZ: 5832; Sparsity: 0.998188; Took 7316 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/epb0.mtx; Matrix Dim: 1794 by 1794; NNZ: 5832; Sparsity: 0.998188; Took 29652 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/eris1176.mtx; Matrix Dim: 1176 by 1176; NNZ: 9864; Sparsity: 0.992868; Took 12567 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/eris1176.mtx; Matrix Dim: 1176 by 1176; NNZ: 9864; Sparsity: 0.992868; Took 24869 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/fs_183_1.mtx; Matrix Dim: 183 by 183; NNZ: 859; Sparsity: 0.97435; Took 5649 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/fs_183_1.mtx; Matrix Dim: 183 by 183; NNZ: 859; Sparsity: 0.97435; Took 5030 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/fs_183_3.mtx; Matrix Dim: 183 by 183; NNZ: 847; Sparsity: 0.974708; Took 5684 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/fs_183_3.mtx; Matrix Dim: 183 by 183; NNZ: 847; Sparsity: 0.974708; Took 5068 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/fs_183_4.mtx; Matrix Dim: 183 by 183; NNZ: 850; Sparsity: 0.974619; Took 5684 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/fs_183_4.mtx; Matrix Dim: 183 by 183; NNZ: 850; Sparsity: 0.974619; Took 5068 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/fs_183_6.mtx; Matrix Dim: 183 by 183; NNZ: 854; Sparsity: 0.974499; Took 5636 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/fs_183_6.mtx; Matrix Dim: 183 by 183; NNZ: 854; Sparsity: 0.974499; Took 5020 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/fs_541_1.mtx; Matrix Dim: 541 by 541; NNZ: 3730; Sparsity: 0.987256; Took 15671 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/fs_541_1.mtx; Matrix Dim: 541 by 541; NNZ: 3730; Sparsity: 0.987256; Took 12821 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/fs_541_2.mtx; Matrix Dim: 541 by 541; NNZ: 3788; Sparsity: 0.987058; Took 14663 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/fs_541_2.mtx; Matrix Dim: 541 by 541; NNZ: 3788; Sparsity: 0.987058; Took 11749 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/fs_541_3.mtx; Matrix Dim: 541 by 541; NNZ: 3885; Sparsity: 0.986726; Took 15239 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/fs_541_3.mtx; Matrix Dim: 541 by 541; NNZ: 3885; Sparsity: 0.986726; Took 12453 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/fs_541_4.mtx; Matrix Dim: 541 by 541; NNZ: 3805; Sparsity: 0.986999; Took 14599 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/fs_541_4.mtx; Matrix Dim: 541 by 541; NNZ: 3805; Sparsity: 0.986999; Took 11765 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/fs_680_1.mtx; Matrix Dim: 680 by 680; NNZ: 2641; Sparsity: 0.994288; Took 16655 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/fs_680_1.mtx; Matrix Dim: 680 by 680; NNZ: 2641; Sparsity: 0.994288; Took 12965 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/fs_680_2.mtx; Matrix Dim: 680 by 680; NNZ: 2628; Sparsity: 0.994317; Took 16863 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/fs_680_2.mtx; Matrix Dim: 680 by 680; NNZ: 2628; Sparsity: 0.994317; Took 12373 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/fs_680_3.mtx; Matrix Dim: 680 by 680; NNZ: 2646; Sparsity: 0.994278; Took 16863 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/fs_680_3.mtx; Matrix Dim: 680 by 680; NNZ: 2646; Sparsity: 0.994278; Took 12373 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/fs_760_1.mtx; Matrix Dim: 760 by 760; NNZ: 5468; Sparsity: 0.990533; Took 78535 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/fs_760_1.mtx; Matrix Dim: 760 by 760; NNZ: 5468; Sparsity: 0.990533; Took 80981 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/fs_760_2.mtx; Matrix Dim: 760 by 760; NNZ: 5233; Sparsity: 0.99094; Took 74759 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/fs_760_2.mtx; Matrix Dim: 760 by 760; NNZ: 5233; Sparsity: 0.99094; Took 77941 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/fs_760_3.mtx; Matrix Dim: 760 by 760; NNZ: 5173; Sparsity: 0.991044; Took 48823 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/fs_760_3.mtx; Matrix Dim: 760 by 760; NNZ: 5173; Sparsity: 0.991044; Took 101365 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/gent113.mtx; Matrix Dim: 113 by 113; NNZ: 655; Sparsity: 0.948704; Took 3257 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/gent113.mtx; Matrix Dim: 113 by 113; NNZ: 655; Sparsity: 0.948704; Took 2786 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/gr_30_30.mtx; Matrix Dim: 900 by 900; NNZ: 4322; Sparsity: 0.994664; Took 27908 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/gr_30_30.mtx; Matrix Dim: 900 by 900; NNZ: 4322; Sparsity: 0.994664; Took 28212 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/gre_1107.mtx; Matrix Dim: 1107 by 1107; NNZ: 432; Sparsity: 0.999647; Took 20951 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/gre_1107.mtx; Matrix Dim: 1107 by 1107; NNZ: 432; Sparsity: 0.999647; Took 27353 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/gre_115.mtx; Matrix Dim: 115 by 115; NNZ: 3; Sparsity: 0.999773; Took 1640 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/gre_115.mtx; Matrix Dim: 115 by 115; NNZ: 3; Sparsity: 0.999773; Took 1587 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/gre_185.mtx; Matrix Dim: 185 by 185; NNZ: 30; Sparsity: 0.999123; Took 3006 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/gre_185.mtx; Matrix Dim: 185 by 185; NNZ: 30; Sparsity: 0.999123; Took 2930 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/gre_216a.mtx; Matrix Dim: 216 by 216; NNZ: 64; Sparsity: 0.998628; Took 3849 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/gre_216a.mtx; Matrix Dim: 216 by 216; NNZ: 64; Sparsity: 0.998628; Took 3671 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/gre_216b.mtx; Matrix Dim: 216 by 216; NNZ: 64; Sparsity: 0.998628; Took 3849 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/gre_216b.mtx; Matrix Dim: 216 by 216; NNZ: 64; Sparsity: 0.998628; Took 3671 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/gre_343.mtx; Matrix Dim: 343 by 343; NNZ: 125; Sparsity: 0.998938; Took 6739 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/gre_343.mtx; Matrix Dim: 343 by 343; NNZ: 125; Sparsity: 0.998938; Took 6615 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/gre_512.mtx; Matrix Dim: 512 by 512; NNZ: 216; Sparsity: 0.999176; Took 10195 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/gre_512.mtx; Matrix Dim: 512 by 512; NNZ: 216; Sparsity: 0.999176; Took 9968 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/hor_131.mtx; Matrix Dim: 434 by 434; NNZ: 3131; Sparsity: 0.983377; Took 21223 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/hor_131.mtx; Matrix Dim: 434 by 434; NNZ: 3131; Sparsity: 0.983377; Took 23773 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/ibm32.mtx; Matrix Dim: 32 by 32; NNZ: 126; Sparsity: 0.876953; Took 864 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/ibm32.mtx; Matrix Dim: 32 by 32; NNZ: 126; Sparsity: 0.876953; Took 785 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/impcol_a.mtx; Matrix Dim: 207 by 207; NNZ: 512; Sparsity: 0.988051; Took 5851 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/impcol_a.mtx; Matrix Dim: 207 by 207; NNZ: 512; Sparsity: 0.988051; Took 5236 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/impcol_b.mtx; Matrix Dim: 59 by 59; NNZ: 261; Sparsity: 0.925022; Took 1568 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/impcol_b.mtx; Matrix Dim: 59 by 59; NNZ: 261; Sparsity: 0.925022; Took 1307 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/impcol_c.mtx; Matrix Dim: 137 by 137; NNZ: 362; Sparsity: 0.980713; Took 3342 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/impcol_c.mtx; Matrix Dim: 137 by 137; NNZ: 362; Sparsity: 0.980713; Took 2945 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/impcol_d.mtx; Matrix Dim: 425 by 425; NNZ: 1198; Sparsity: 0.993367; Took 11247 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/impcol_d.mtx; Matrix Dim: 425 by 425; NNZ: 1198; Sparsity: 0.993367; Took 11097 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/impcol_e.mtx; Matrix Dim: 225 by 225; NNZ: 983; Sparsity: 0.980583; Took 7224 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/impcol_e.mtx; Matrix Dim: 225 by 225; NNZ: 983; Sparsity: 0.980583; Took 6419 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/jagmesh1.mtx; Matrix Dim: 936 by 936; NNZ: 3600; Sparsity: 0.995891; Took 28967 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/jagmesh1.mtx; Matrix Dim: 936 by 936; NNZ: 3600; Sparsity: 0.995891; Took 29173 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/jagmesh2.mtx; Matrix Dim: 1009 by 1009; NNZ: 3937; Sparsity: 0.996133; Took 30967 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/jagmesh2.mtx; Matrix Dim: 1009 by 1009; NNZ: 3937; Sparsity: 0.996133; Took 31253 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/jagmesh3.mtx; Matrix Dim: 1089 by 1089; NNZ: 4225; Sparsity: 0.996437; Took 33463 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/jagmesh3.mtx; Matrix Dim: 1089 by 1089; NNZ: 4225; Sparsity: 0.996437; Took 33701 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/jagmesh4.mtx; Matrix Dim: 1440 by 1440; NNZ: 5472; Sparsity: 0.997361; Took 73431 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/jagmesh4.mtx; Matrix Dim: 1440 by 1440; NNZ: 5472; Sparsity: 0.997361; Took 79557 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/jagmesh5.mtx; Matrix Dim: 1180 by 1180; NNZ: 4465; Sparsity: 0.996793; Took 9143 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/jagmesh5.mtx; Matrix Dim: 1180 by 1180; NNZ: 4465; Sparsity: 0.996793; Took 14021 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/jagmesh6.mtx; Matrix Dim: 1377 by 1377; NNZ: 5185; Sparsity: 0.997265; Took 10324 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/jagmesh6.mtx; Matrix Dim: 1377 by 1377; NNZ: 5185; Sparsity: 0.997265; Took 18036 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/jagmesh7.mtx; Matrix Dim: 1138 by 1138; NNZ: 4294; Sparsity: 0.996684; Took 20660 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/jagmesh7.mtx; Matrix Dim: 1138 by 1138; NNZ: 4294; Sparsity: 0.996684; Took 28212 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/jagmesh8.mtx; Matrix Dim: 1141 by 1141; NNZ: 4303; Sparsity: 0.996695; Took 8724 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/jagmesh8.mtx; Matrix Dim: 1141 by 1141; NNZ: 4303; Sparsity: 0.996695; Took 13620 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/jagmesh9.mtx; Matrix Dim: 1349 by 1349; NNZ: 5225; Sparsity: 0.997129; Took 10004 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/jagmesh9.mtx; Matrix Dim: 1349 by 1349; NNZ: 5225; Sparsity: 0.997129; Took 15604 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/jgl009.mtx; Matrix Dim: 9 by 9; NNZ: 50; Sparsity: 0.382716; Took 289 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/jgl009.mtx; Matrix Dim: 9 by 9; NNZ: 50; Sparsity: 0.382716; Took 270 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/jgl011.mtx; Matrix Dim: 11 by 11; NNZ: 76; Sparsity: 0.371901; Took 357 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/jgl011.mtx; Matrix Dim: 11 by 11; NNZ: 76; Sparsity: 0.371901; Took 326 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/jpwh_991.mtx; Matrix Dim: 991 by 991; NNZ: 6027; Sparsity: 0.993863; Took 34020 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/jpwh_991.mtx; Matrix Dim: 991 by 991; NNZ: 6027; Sparsity: 0.993863; Took 33092 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/lns_131.mtx; Matrix Dim: 131 by 131; NNZ: 403; Sparsity: 0.976517; Took 3082 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/lns_131.mtx; Matrix Dim: 131 by 131; NNZ: 403; Sparsity: 0.976517; Took 2733 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/lns_3937.mtx; Matrix Dim: 3937 by 3937; NNZ: 17037; Sparsity: 0.998901; Took 9108 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/lns_3937.mtx; Matrix Dim: 3937 by 3937; NNZ: 17037; Sparsity: 0.998901; Took 60820 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/lns_511.mtx; Matrix Dim: 511 by 511; NNZ: 1868; Sparsity: 0.992846; Took 12660 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/lns_511.mtx; Matrix Dim: 511 by 511; NNZ: 1868; Sparsity: 0.992846; Took 12736 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/lnsp_131.mtx; Matrix Dim: 131 by 131; NNZ: 403; Sparsity: 0.976517; Took 3082 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/lnsp_131.mtx; Matrix Dim: 131 by 131; NNZ: 403; Sparsity: 0.976517; Took 2733 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/lnsp_511.mtx; Matrix Dim: 511 by 511; NNZ: 1868; Sparsity: 0.992846; Took 12628 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/lnsp_511.mtx; Matrix Dim: 511 by 511; NNZ: 1868; Sparsity: 0.992846; Took 12712 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/lop163.mtx; Matrix Dim: 163 by 163; NNZ: 17; Sparsity: 0.99936; Took 2361 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/lop163.mtx; Matrix Dim: 163 by 163; NNZ: 17; Sparsity: 0.99936; Took 2324 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/lshp1009.mtx; Matrix Dim: 1009 by 1009; NNZ: 3937; Sparsity: 0.996133; Took 30967 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/lshp1009.mtx; Matrix Dim: 1009 by 1009; NNZ: 3937; Sparsity: 0.996133; Took 31253 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/lshp1270.mtx; Matrix Dim: 1270 by 1270; NNZ: 4969; Sparsity: 0.996919; Took 13079 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/lshp1270.mtx; Matrix Dim: 1270 by 1270; NNZ: 4969; Sparsity: 0.996919; Took 25061 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/lshp1561.mtx; Matrix Dim: 1561 by 1561; NNZ: 6121; Sparsity: 0.997488; Took 12084 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/lshp1561.mtx; Matrix Dim: 1561 by 1561; NNZ: 6121; Sparsity: 0.997488; Took 20692 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/lshp1882.mtx; Matrix Dim: 1882 by 1882; NNZ: 7393; Sparsity: 0.997913; Took 6807 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/lshp1882.mtx; Matrix Dim: 1882 by 1882; NNZ: 7393; Sparsity: 0.997913; Took 27749 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/mhda416.mtx; Matrix Dim: 416 by 416; NNZ: 6598; Sparsity: 0.961874; Took 20231 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/mhda416.mtx; Matrix Dim: 416 by 416; NNZ: 6598; Sparsity: 0.961874; Took 17701 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/mhdb416.mtx; Matrix Dim: 416 by 416; NNZ: 563; Sparsity: 0.996747; Took 9167 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/mhdb416.mtx; Matrix Dim: 416 by 416; NNZ: 563; Sparsity: 0.996747; Took 8729 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/nos5.mtx; Matrix Dim: 468 by 468; NNZ: 2820; Sparsity: 0.987125; Took 12555 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/nos5.mtx; Matrix Dim: 468 by 468; NNZ: 2820; Sparsity: 0.987125; Took 12741 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/nos6.mtx; Matrix Dim: 675 by 675; NNZ: 1965; Sparsity: 0.995687; Took 16564 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/nos6.mtx; Matrix Dim: 675 by 675; NNZ: 1965; Sparsity: 0.995687; Took 12164 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/nos7.mtx; Matrix Dim: 729 by 729; NNZ: 2434; Sparsity: 0.99542; Took 17423 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/nos7.mtx; Matrix Dim: 729 by 729; NNZ: 2434; Sparsity: 0.99542; Took 12725 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/odepa400.mtx; Matrix Dim: 400 by 400; NNZ: 1199; Sparsity: 0.992506; Took 10155 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/odepa400.mtx; Matrix Dim: 400 by 400; NNZ: 1199; Sparsity: 0.992506; Took 9825 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/odepb400.mtx; Matrix Dim: 400 by 400; NNZ: 399; Sparsity: 0.997506; Took 10143 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/odepb400.mtx; Matrix Dim: 400 by 400; NNZ: 399; Sparsity: 0.997506; Took 9814 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/olm100.mtx; Matrix Dim: 100 by 100; NNZ: 346; Sparsity: 0.9654; Took 2455 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/olm100.mtx; Matrix Dim: 100 by 100; NNZ: 346; Sparsity: 0.9654; Took 2169 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/olm1000.mtx; Matrix Dim: 1000 by 1000; NNZ: 3496; Sparsity: 0.996504; Took 30871 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/olm1000.mtx; Matrix Dim: 1000 by 1000; NNZ: 3496; Sparsity: 0.996504; Took 31093 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/orsirr_1.mtx; Matrix Dim: 1030 by 1030; NNZ: 6858; Sparsity: 0.993536; Took 33323 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/orsirr_1.mtx; Matrix Dim: 1030 by 1030; NNZ: 6858; Sparsity: 0.993536; Took 33001 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/orsirr_2.mtx; Matrix Dim: 886 by 886; NNZ: 5970; Sparsity: 0.992395; Took 29460 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/orsirr_2.mtx; Matrix Dim: 886 by 886; NNZ: 5970; Sparsity: 0.992395; Took 28964 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/plat1919.mtx; Matrix Dim: 1919 by 1919; NNZ: 8182; Sparsity: 0.997778; Took 7636 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/plat1919.mtx; Matrix Dim: 1919 by 1919; NNZ: 8182; Sparsity: 0.997778; Took 29524 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/plat362.mtx; Matrix Dim: 362 by 362; NNZ: 1446; Sparsity: 0.988966; Took 9487 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/plat362.mtx; Matrix Dim: 362 by 362; NNZ: 1446; Sparsity: 0.988966; Took 7173 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/plsk1919.mtx; Matrix Dim: 1919 by 1919; NNZ: 1746; Sparsity: 0.999526; Took 15636 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/plsk1919.mtx; Matrix Dim: 1919 by 1919; NNZ: 1746; Sparsity: 0.999526; Took 29588 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/plskz362.mtx; Matrix Dim: 362 by 362; NNZ: 645; Sparsity: 0.995078; Took 8075 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/plskz362.mtx; Matrix Dim: 362 by 362; NNZ: 645; Sparsity: 0.995078; Took 8245 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/pores_1.mtx; Matrix Dim: 30 by 30; NNZ: 180; Sparsity: 0.8; Took 775 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/pores_1.mtx; Matrix Dim: 30 by 30; NNZ: 180; Sparsity: 0.8; Took 699 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/pores_2.mtx; Matrix Dim: 1224 by 1224; NNZ: 9533; Sparsity: 0.993637; Took 10932 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/pores_2.mtx; Matrix Dim: 1224 by 1224; NNZ: 9533; Sparsity: 0.993637; Took 19668 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/pores_3.mtx; Matrix Dim: 532 by 532; NNZ: 2797; Sparsity: 0.990117; Took 13799 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/pores_3.mtx; Matrix Dim: 532 by 532; NNZ: 2797; Sparsity: 0.990117; Took 10325 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/saylr1.mtx; Matrix Dim: 238 by 238; NNZ: 1030; Sparsity: 0.981816; Took 6608 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/saylr1.mtx; Matrix Dim: 238 by 238; NNZ: 1030; Sparsity: 0.981816; Took 5911 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/saylr3.mtx; Matrix Dim: 1000 by 1000; NNZ: 1538; Sparsity: 0.998462; Took 30871 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/saylr3.mtx; Matrix Dim: 1000 by 1000; NNZ: 1538; Sparsity: 0.998462; Took 31093 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/sherman1.mtx; Matrix Dim: 1000 by 1000; NNZ: 1538; Sparsity: 0.998462; Took 30871 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/sherman1.mtx; Matrix Dim: 1000 by 1000; NNZ: 1538; Sparsity: 0.998462; Took 31093 cycles
+Passed!
+Sparse Vector
+Helper
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/sherman2.mtx; Matrix Dim: 1080 by 1080; NNZ: 15912; Sparsity: 0.986358; Took 15796 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/sherman2.mtx; Matrix Dim: 1080 by 1080; NNZ: 15912; Sparsity: 0.986358; Took 28788 cycles
+Passed!
+Sparse Vector
+Helper
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/sherman4.mtx; Matrix Dim: 1104 by 1104; NNZ: 3786; Sparsity: 0.996894; Took 38231 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/sherman4.mtx; Matrix Dim: 1104 by 1104; NNZ: 3786; Sparsity: 0.996894; Took 44517 cycles
+Passed!
+Sparse Vector
+Helper
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/shl_0.mtx; Matrix Dim: 663 by 663; NNZ: 1687; Sparsity: 0.996162; Took 17199 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/shl_0.mtx; Matrix Dim: 663 by 663; NNZ: 1687; Sparsity: 0.996162; Took 13781 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/shl_200.mtx; Matrix Dim: 663 by 663; NNZ: 1726; Sparsity: 0.996073; Took 17199 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/shl_200.mtx; Matrix Dim: 663 by 663; NNZ: 1726; Sparsity: 0.996073; Took 13765 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/shl_400.mtx; Matrix Dim: 663 by 663; NNZ: 1712; Sparsity: 0.996105; Took 17167 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/shl_400.mtx; Matrix Dim: 663 by 663; NNZ: 1712; Sparsity: 0.996105; Took 13621 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/steam1.mtx; Matrix Dim: 240 by 240; NNZ: 3392; Sparsity: 0.941111; Took 14568 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/steam1.mtx; Matrix Dim: 240 by 240; NNZ: 3392; Sparsity: 0.941111; Took 13801 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/steam2.mtx; Matrix Dim: 600 by 600; NNZ: 12625; Sparsity: 0.964931; Took 34047 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/steam2.mtx; Matrix Dim: 600 by 600; NNZ: 12625; Sparsity: 0.964931; Took 30805 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/steam3.mtx; Matrix Dim: 80 by 80; NNZ: 923; Sparsity: 0.855781; Took 2694 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/steam3.mtx; Matrix Dim: 80 by 80; NNZ: 923; Sparsity: 0.855781; Took 2252 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/str_0.mtx; Matrix Dim: 363 by 363; NNZ: 734; Sparsity: 0.99443; Took 9239 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/str_0.mtx; Matrix Dim: 363 by 363; NNZ: 734; Sparsity: 0.99443; Took 9041 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/str_200.mtx; Matrix Dim: 363 by 363; NNZ: 780; Sparsity: 0.994081; Took 9239 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/str_200.mtx; Matrix Dim: 363 by 363; NNZ: 780; Sparsity: 0.994081; Took 9041 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/str_400.mtx; Matrix Dim: 363 by 363; NNZ: 844; Sparsity: 0.993595; Took 9259 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/str_400.mtx; Matrix Dim: 363 by 363; NNZ: 844; Sparsity: 0.993595; Took 9109 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/str_600.mtx; Matrix Dim: 363 by 363; NNZ: 876; Sparsity: 0.993352; Took 9223 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/str_600.mtx; Matrix Dim: 363 by 363; NNZ: 876; Sparsity: 0.993352; Took 9093 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/watt_1.mtx; Matrix Dim: 1856 by 1856; NNZ: 11360; Sparsity: 0.996702; Took 75543 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/watt_1.mtx; Matrix Dim: 1856 by 1856; NNZ: 11360; Sparsity: 0.996702; Took 86373 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/watt_2.mtx; Matrix Dim: 1856 by 1856; NNZ: 11550; Sparsity: 0.996647; Took 76567 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/watt_2.mtx; Matrix Dim: 1856 by 1856; NNZ: 11550; Sparsity: 0.996647; Took 82725 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/west0067.mtx; Matrix Dim: 67 by 67; NNZ: 192; Sparsity: 0.957229; Took 1662 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/west0067.mtx; Matrix Dim: 67 by 67; NNZ: 192; Sparsity: 0.957229; Took 1475 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/west0132.mtx; Matrix Dim: 132 by 132; NNZ: 354; Sparsity: 0.979683; Took 3232 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/west0132.mtx; Matrix Dim: 132 by 132; NNZ: 354; Sparsity: 0.979683; Took 2847 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/west0156.mtx; Matrix Dim: 156 by 156; NNZ: 342; Sparsity: 0.985947; Took 3756 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/west0156.mtx; Matrix Dim: 156 by 156; NNZ: 342; Sparsity: 0.985947; Took 3314 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/west0167.mtx; Matrix Dim: 167 by 167; NNZ: 434; Sparsity: 0.984438; Took 4359 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/west0167.mtx; Matrix Dim: 167 by 167; NNZ: 434; Sparsity: 0.984438; Took 3866 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/west0381.mtx; Matrix Dim: 381 by 381; NNZ: 1563; Sparsity: 0.989233; Took 10551 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/west0381.mtx; Matrix Dim: 381 by 381; NNZ: 1563; Sparsity: 0.989233; Took 10577 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/west0479.mtx; Matrix Dim: 479 by 479; NNZ: 1602; Sparsity: 0.993018; Took 12743 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/west0479.mtx; Matrix Dim: 479 by 479; NNZ: 1602; Sparsity: 0.993018; Took 12705 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/west0497.mtx; Matrix Dim: 497 by 497; NNZ: 1474; Sparsity: 0.994033; Took 12871 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/west0497.mtx; Matrix Dim: 497 by 497; NNZ: 1474; Sparsity: 0.994033; Took 13173 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/west0655.mtx; Matrix Dim: 655 by 655; NNZ: 2376; Sparsity: 0.994462; Took 16775 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/west0655.mtx; Matrix Dim: 655 by 655; NNZ: 2376; Sparsity: 0.994462; Took 12565 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/west0989.mtx; Matrix Dim: 989 by 989; NNZ: 3079; Sparsity: 0.996852; Took 31556 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/west0989.mtx; Matrix Dim: 989 by 989; NNZ: 3079; Sparsity: 0.996852; Took 31460 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/west1505.mtx; Matrix Dim: 1505 by 1505; NNZ: 4741; Sparsity: 0.997907; Took 16631 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/west1505.mtx; Matrix Dim: 1505 by 1505; NNZ: 4741; Sparsity: 0.997907; Took 33861 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/will199.mtx; Matrix Dim: 199 by 199; NNZ: 701; Sparsity: 0.982298; Took 5437 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/will199.mtx; Matrix Dim: 199 by 199; NNZ: 701; Sparsity: 0.982298; Took 4854 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/will57.mtx; Matrix Dim: 57 by 57; NNZ: 281; Sparsity: 0.913512; Took 1614 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/will57.mtx; Matrix Dim: 57 by 57; NNZ: 281; Sparsity: 0.913512; Took 1399 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/young1c.mtx; Matrix Dim: 841 by 841; NNZ: 4089; Sparsity: 0.994219; Took 45271 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/young1c.mtx; Matrix Dim: 841 by 841; NNZ: 4089; Sparsity: 0.994219; Took 46213 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/young2c.mtx; Matrix Dim: 841 by 841; NNZ: 4089; Sparsity: 0.994219; Took 45271 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/young2c.mtx; Matrix Dim: 841 by 841; NNZ: 4089; Sparsity: 0.994219; Took 46213 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/young3c.mtx; Matrix Dim: 841 by 841; NNZ: 3988; Sparsity: 0.994362; Took 45271 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/young3c.mtx; Matrix Dim: 841 by 841; NNZ: 3988; Sparsity: 0.994362; Took 46213 cycles
+Passed!
+Sparse Vector
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/young4c.mtx; Matrix Dim: 841 by 841; NNZ: 4089; Sparsity: 0.994219; Took 45271 cycles
+Passed!
+Helper
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim/tests/spmv/tamu/young4c.mtx; Matrix Dim: 841 by 841; NNZ: 4089; Sparsity: 0.994219; Took 46213 cycles
+Passed!

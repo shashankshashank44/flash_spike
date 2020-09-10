@@ -1,0 +1,1124 @@
+denseMV.c:68:41: warning: integer overflow in expression of type 'int' results in '-1073741824' [-Woverflow]
+   68 | unsigned long HELPER_BASE = (3*1024*1024*1024); // modify this base
+      |                              ~~~~~~~~~~~^~~~~
+denseMV.c: In function 'void genSparseVector()':
+denseMV.c:187:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  187 |     generateAsm("ld_r12_imm_0xfffff_macro", LD_IMM(R12, 0xfffff));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:188:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  188 |     generateAsm("ld_r23_n_upper_20_macro", LD_IMM(R23, n_upper_20));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:189:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  189 |     generateAsm("add_r23_r23_imm_n_lower_12_macro", ADD_IMM(R23, R23, n_lower_12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:190:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  190 |     generateAsm("sub_r23_r23_r12_macro", SUB_R_R(R23, R23, R12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:191:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  191 |     generateAsm("ldw_r23_r23_imm_0_macro", LDW(R23, R23, 0));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:192:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  192 |     generateAsm("set_r18_0_macro", SET_0(R18));
+      |                 ^~~~~~~~~~~~~~~~~
+denseMV.c:193:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  193 |     generateAsm("set_r19_0_macro", SET_0(R19));
+      |                 ^~~~~~~~~~~~~~~~~
+denseMV.c:194:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  194 |     generateAsm("set_r20_0_macro", SET_0(R20));
+      |                 ^~~~~~~~~~~~~~~~~
+denseMV.c:195:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  195 |     generateAsm("set_r21_0_macro", SET_0(R21));
+      |                 ^~~~~~~~~~~~~~~~~
+denseMV.c:196:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  196 |     generateAsm("set_r22_0_macro", SET_0(R22));
+      |                 ^~~~~~~~~~~~~~~~~
+denseMV.c:197:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  197 |     generateAsm("incr_r18_macro", INCR(R18));
+      |                 ^~~~~~~~~~~~~~~~
+denseMV.c:198:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  198 |     generateAsm("blt_r18_r23_imm_neg_4_macro", BLT(R18, R23, -4));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:199:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  199 |     generateAsm("blt_r18_r23_imm_neg_20_macro", BLT(R18, R23, -20));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:200:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  200 |     generateAsm("blt_r18_r23_imm_neg_40_macro", BLT(R18, R23, -40));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:201:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  201 |     generateAsm("blt_r18_r23_imm_neg_52_macro", BLT(R18, R23, -52));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:202:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  202 |     generateAsm("blt_r18_r23_imm_neg_60_macro", BLT(R18, R23, -60));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:203:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  203 |     generateAsm("blt_r18_r23_imm_neg_64_macro", BLT(R18, R23, -64));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:204:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  204 |     generateAsm("blt_r18_r23_imm_neg_68_macro", BLT(R18, R23, -68));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:205:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  205 |     generateAsm("blt_r18_r23_imm_neg_80_macro", BLT(R18, R23, -80));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:206:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  206 |     generateAsm("blt_r18_r23_imm_neg_92_macro", BLT(R18, R23, -92));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:207:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  207 |     generateAsm("add_r6_r0_imm_256_macro", ADD_IMM(R6,R0,256));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:208:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  208 |     generateAsm("vsetvli_r7_r6_e32_macro", VSETVLI(R7, R6, (E32 << VSEW_OFFSET)));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:213:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  213 |     generateAsm("ld_r24_t_upper_20_macro", LD_IMM(R24, t_upper_20));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:214:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  214 |     generateAsm("add_r24_r24_imm_t_lower_12_macro", ADD_IMM(R24, R24, t_lower_12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:215:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  215 |     generateAsm("sub_r24_r24_r12_macro", SUB_R_R(R24, R24, R12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:216:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  216 |     generateAsm("stw_r24_r18_imm_0_macro", STW(R24, R18, 0));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:217:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  217 |     generateAsm("stw_r24_r25_imm_0_macro", STW(R24, R25, 0));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:219:23: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  219 |     loadConstantToReg("rows", (int)rows, R24, &rows_lower_12);
+      |                       ^~~~~~
+denseMV.c:221:23: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  221 |     loadConstantToReg("vals", (int)vals, R27, &vals_lower_12);
+      |                       ^~~~~~
+denseMV.c:223:23: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  223 |     loadConstantToReg("cols", (int)cols, R28, &cols_lower_12);
+      |                       ^~~~~~
+denseMV.c:226:23: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  226 |     loadConstantToReg("v", (int)v, R29, &v_lower_12);
+      |                       ^~~
+denseMV.c:227:23: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  227 |     loadConstantToReg("y", (int)y, R31, &y_lower_12);
+      |                       ^~~
+denseMV.c:229:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  229 |     generateAsm("incr_r24_by_4_macro", INCR4(R24));
+      |                 ^~~~~~~~~~~~~~~~~~~~~
+denseMV.c:230:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  230 |     generateAsm("ldw_r25_r24_imm_0_macro", LDW(R25, R24, 0));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:231:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  231 |     generateAsm("ldw_r26_r24_imm_0_macro", LDW(R26, R24, 0));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:232:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  232 |     generateAsm("sub_r25_r26_r25_macro", SUB_R_R(R25, R26, R25));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:233:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  233 |     generateAsm("srl_r26_r25_imm_3_macro", SRL_IMM(R26, R25, 3));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:234:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  234 |     generateAsm("incr_r19_macro", INCR(R19));
+      |                 ^~~~~~~~~~~~~~~~
+denseMV.c:235:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  235 |     generateAsm("blt_r19_r26_imm_neg_4_macro", BLT(R19, R26, -4));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:236:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  236 |     generateAsm("blt_r19_r26_imm_neg_12_macro", BLT(R19, R26, -12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:237:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  237 |     generateAsm("blt_r19_r26_imm_neg_20_macro", BLT(R19, R26, -20));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:238:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  238 |     generateAsm("blt_r19_r26_imm_neg_24_macro", BLT(R19, R26, -24));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:239:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  239 |     generateAsm("blt_r19_r26_imm_neg_28_macro", BLT(R19, R26, -24));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:240:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  240 |     generateAsm("blt_r19_r26_imm_neg_32_macro", BLT(R19, R26, -32));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:241:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  241 |     generateAsm("blt_r19_r26_imm_neg_36_macro", BLT(R19, R26, -36));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:242:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  242 |     generateAsm("beq_r19_r26_imm_pos_12_macro", BEQ(R19, R26, 12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:243:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  243 |     generateAsm("beq_r19_r26_imm_pos_24_macro", BEQ(R19, R26, 24));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:244:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  244 |     generateAsm("beq_r19_r26_imm_pos_32_macro", BEQ(R19, R26, 32));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:245:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  245 |     generateAsm("beq_r19_r26_imm_pos_36_macro", BEQ(R19, R26, 36));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:246:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  246 |     generateAsm("beq_r19_r26_imm_pos_40_macro", BEQ(R19, R26, 40));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:247:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  247 |     generateAsm("beq_r19_r26_imm_pos_48_macro", BEQ(R19, R26, 48));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:248:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  248 |     generateAsm("nop", NOP);
+      |                 ^~~~~
+denseMV.c:249:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  249 |     generateAsm("vlwv_v27_r27_macro", VLWV(V27,R27));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c:250:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  250 |     generateAsm("vlwv_v28_r28_macro", VLWV(V28,R28));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c:251:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  251 |     generateAsm("incr32_r27_macro",INCR32(R27));
+      |                 ^~~~~~~~~~~~~~~~~~
+denseMV.c:252:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  252 |     generateAsm("incr4_r31_macro",INCR4(R31));
+      |                 ^~~~~~~~~~~~~~~~~
+denseMV.c:253:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  253 |     generateAsm("incr32_r28_macro",INCR32(R28));
+      |                 ^~~~~~~~~~~~~~~~~~
+denseMV.c:254:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  254 |     generateAsm("vsll_vi_v28_v28_imm_4_macro", VSLL_VI(V28, V28, 2, VM));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:255:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  255 |     generateAsm("vswv_r24_v28_macro", VSWV(R24, V28));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c:256:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  256 |     generateAsm("vswv_r31_v30_macro", VSWV(R31, V30));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c:257:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  257 |     generateAsm("vliwv_v29_r29_v28_macro", VLIWV(V29, R29, V28));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:258:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  258 |     generateAsm("vmul_vv_v29_v27_v29_vm_macro", VMUL_VV(V29, V27, V29, VM));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:259:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  259 |     generateAsm("vredsum_vs_v30_v30_v29_macro", VREDSUM_VS(V30, V30, V29, VM));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:260:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  260 |     generateAsm("reset_v30_r0_macro", VMV_VX(V30,R0));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c:261:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  261 |     generateAsm("vlwv_v29_r30_macro", VLWV(V29,R30));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c: In function 'void genHWHelper()':
+denseMV.c:285:23: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  285 |     loadConstantToReg("helper_base", HELPER_BASE, R30, &helper_base_lower_12);
+      |                       ^~~~~~~~~~~~~
+denseMV.c:289:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  289 |     generateAsm("stw_r30_r23_imm_0_macro", STW(R30, R23, 0));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:293:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  293 |     generateAsm("stw_r30_r24_imm_4_macro", STW(R30, R24, 4));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:297:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  297 |     generateAsm("stw_r30_r28_imm_8_macro", STW(R30, R28, 8));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:301:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  301 |     generateAsm("stw_r30_r29_imm_12_macro", STW(R30, R29, 12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:305:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  305 |     generateAsm("stw_r30_r0_imm_16_macro", STW(R30, R0, 16));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:310:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  310 |     generateAsm("add_r22_r0_imm_1_macro", ADD_IMM(R22, R0, 1));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:311:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  311 |     generateAsm("stw_r30_r22_imm_24_macro", STW(R30, R22, 24));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:315:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  315 |     generateAsm("add_r30_r30_imm_1024_macro", ADD_IMM(R30, R30, 1024));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c: In function 'void genDenseVector()':
+denseMV.c:686:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  686 |     generateAsm("add_r6_r0_imm_256_macro", ADD_IMM(R6,R0,256));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:687:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  687 |     generateAsm("vsetvli_r7_r6_e32_macro", VSETVLI(R7, R6, (E32 << VSEW_OFFSET)));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:693:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  693 |     generateAsm("ld_r10_m_upper_20_macro", LD_IMM(R10, m_upper_20));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:694:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  694 |     generateAsm("add_r10_r10_imm_m_lower_12_macro", ADD_IMM(R10, R10, m_lower_12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:700:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  700 |     generateAsm("ld_r13_v_upper_20_macro", LD_IMM(R13, v_upper_20));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:701:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  701 |     generateAsm("add_r13_r13_imm_v_lower_12_macro", ADD_IMM(R13, R13, v_lower_12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:707:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  707 |     generateAsm("ld_r28_y_upper_20_macro", LD_IMM(R28, y_upper_20));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:708:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  708 |     generateAsm("add_r28_r28_imm_y_lower_12_macro", ADD_IMM(R28, R28, y_lower_12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:710:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  710 |     generateAsm("ld_r12_imm_0xfffff_macro", LD_IMM(R12, 0xfffff));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:711:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  711 |     generateAsm("sub_r10_r10_r12_macro", SUB_R_R(R10,R10,R12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:712:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  712 |     generateAsm("sub_r11_r11_r12_macro", SUB_R_R(R11,R11,R12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:713:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  713 |     generateAsm("sub_r13_r13_r12_macro", SUB_R_R(R13,R13,R12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:714:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  714 |     generateAsm("sub_r28_r28_r12_macro", SUB_R_R(R28,R28,R12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:716:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  716 |     generateAsm("vlwv_v10_r10_macro", VLWV(V10,R10));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c:717:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  717 |     generateAsm("vlwv_v13_r13_macro", VLWV(V13,R13));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c:718:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  718 |     generateAsm("vadd_vv_v11_v10_v13_vm_macro", VADD_VV(V11,V10,V13,VM));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:719:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  719 |     generateAsm("vmul_vv_v11_v10_v13_vm_macro", VMUL_VV(V11,V10,V13,VM));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:720:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  720 |     generateAsm("vswv_r11_v11_macro", VSWV(R11,V11));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c:721:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  721 |     generateAsm("vswv_r28_v28_macro", VSWV(R28,V28));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c:722:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  722 |     generateAsm("add_10_10_imm_256_macro", ADD_IMM(R10,R10,0b000000100000));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:723:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  723 |     generateAsm("add_11_11_imm_256_macro", ADD_IMM(R11,R11,0b000000100000));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:724:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  724 |     generateAsm("add_11_11_imm_32_macro", ADD_IMM(R11,R11,0b000000000100));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:725:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  725 |     generateAsm("add_13_13_imm_256_macro", ADD_IMM(R13,R13,0b000000100000));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:726:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  726 |     generateAsm("add_28_28_imm_256_macro", ADD_IMM(R28,R28,0b000000100000));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:727:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  727 |     generateAsm("add_28_28_imm_32_macro", ADD_IMM(R28,R28,0b000000000100));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:729:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  729 |     generateAsm("vredsum_vs_v28_v28_v11_macro", VREDSUM_VS(V28, V28, V11, VM));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:732:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  732 |     generateAsm("cp_r29_r13_macro", ADD_IMM(R29, R13, 0));
+      |                 ^~~~~~~~~~~~~~~~~~
+denseMV.c:734:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  734 |     generateAsm("cp_r13_r29_macro", ADD_IMM(R13, R29, 0));
+      |                 ^~~~~~~~~~~~~~~~~~
+denseMV.c:737:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  737 |     generateAsm("reset_v28_r0_macro", VMV_VX(V28,R0));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c:740:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  740 |     generateAsm("move_r30_v28_macro", VMV_XV(R30,V28));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c:743:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  743 |     generateAsm("sw_r11_r30_macro", STW(R11, R30, 0));
+      |                 ^~~~~~~~~~~~~~~~~~
+Number of Instructions Executed: 23611044731
+Number of Cycles taken: 23817624864
+Buffer wait cycles: 0
+Memory wait cycles: 0
+denseMV.c:68:41: warning: integer overflow in expression of type 'int' results in '-1073741824' [-Woverflow]
+   68 | unsigned long HELPER_BASE = (3*1024*1024*1024); // modify this base
+      |                              ~~~~~~~~~~~^~~~~
+denseMV.c: In function 'void genSparseVector()':
+denseMV.c:187:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  187 |     generateAsm("ld_r12_imm_0xfffff_macro", LD_IMM(R12, 0xfffff));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:188:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  188 |     generateAsm("ld_r23_n_upper_20_macro", LD_IMM(R23, n_upper_20));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:189:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  189 |     generateAsm("add_r23_r23_imm_n_lower_12_macro", ADD_IMM(R23, R23, n_lower_12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:190:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  190 |     generateAsm("sub_r23_r23_r12_macro", SUB_R_R(R23, R23, R12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:191:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  191 |     generateAsm("ldw_r23_r23_imm_0_macro", LDW(R23, R23, 0));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:192:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  192 |     generateAsm("set_r18_0_macro", SET_0(R18));
+      |                 ^~~~~~~~~~~~~~~~~
+denseMV.c:193:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  193 |     generateAsm("set_r19_0_macro", SET_0(R19));
+      |                 ^~~~~~~~~~~~~~~~~
+denseMV.c:194:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  194 |     generateAsm("set_r20_0_macro", SET_0(R20));
+      |                 ^~~~~~~~~~~~~~~~~
+denseMV.c:195:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  195 |     generateAsm("set_r21_0_macro", SET_0(R21));
+      |                 ^~~~~~~~~~~~~~~~~
+denseMV.c:196:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  196 |     generateAsm("set_r22_0_macro", SET_0(R22));
+      |                 ^~~~~~~~~~~~~~~~~
+denseMV.c:197:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  197 |     generateAsm("incr_r18_macro", INCR(R18));
+      |                 ^~~~~~~~~~~~~~~~
+denseMV.c:198:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  198 |     generateAsm("blt_r18_r23_imm_neg_4_macro", BLT(R18, R23, -4));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:199:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  199 |     generateAsm("blt_r18_r23_imm_neg_20_macro", BLT(R18, R23, -20));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:200:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  200 |     generateAsm("blt_r18_r23_imm_neg_40_macro", BLT(R18, R23, -40));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:201:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  201 |     generateAsm("blt_r18_r23_imm_neg_52_macro", BLT(R18, R23, -52));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:202:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  202 |     generateAsm("blt_r18_r23_imm_neg_60_macro", BLT(R18, R23, -60));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:203:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  203 |     generateAsm("blt_r18_r23_imm_neg_64_macro", BLT(R18, R23, -64));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:204:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  204 |     generateAsm("blt_r18_r23_imm_neg_68_macro", BLT(R18, R23, -68));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:205:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  205 |     generateAsm("blt_r18_r23_imm_neg_80_macro", BLT(R18, R23, -80));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:206:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  206 |     generateAsm("blt_r18_r23_imm_neg_92_macro", BLT(R18, R23, -92));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:207:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  207 |     generateAsm("add_r6_r0_imm_256_macro", ADD_IMM(R6,R0,256));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:208:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  208 |     generateAsm("vsetvli_r7_r6_e32_macro", VSETVLI(R7, R6, (E32 << VSEW_OFFSET)));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:213:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  213 |     generateAsm("ld_r24_t_upper_20_macro", LD_IMM(R24, t_upper_20));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:214:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  214 |     generateAsm("add_r24_r24_imm_t_lower_12_macro", ADD_IMM(R24, R24, t_lower_12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:215:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  215 |     generateAsm("sub_r24_r24_r12_macro", SUB_R_R(R24, R24, R12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:216:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  216 |     generateAsm("stw_r24_r18_imm_0_macro", STW(R24, R18, 0));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:217:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  217 |     generateAsm("stw_r24_r25_imm_0_macro", STW(R24, R25, 0));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:219:23: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  219 |     loadConstantToReg("rows", (int)rows, R24, &rows_lower_12);
+      |                       ^~~~~~
+denseMV.c:221:23: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  221 |     loadConstantToReg("vals", (int)vals, R27, &vals_lower_12);
+      |                       ^~~~~~
+denseMV.c:223:23: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  223 |     loadConstantToReg("cols", (int)cols, R28, &cols_lower_12);
+      |                       ^~~~~~
+denseMV.c:226:23: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  226 |     loadConstantToReg("v", (int)v, R29, &v_lower_12);
+      |                       ^~~
+denseMV.c:227:23: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  227 |     loadConstantToReg("y", (int)y, R31, &y_lower_12);
+      |                       ^~~
+denseMV.c:229:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  229 |     generateAsm("incr_r24_by_4_macro", INCR4(R24));
+      |                 ^~~~~~~~~~~~~~~~~~~~~
+denseMV.c:230:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  230 |     generateAsm("ldw_r25_r24_imm_0_macro", LDW(R25, R24, 0));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:231:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  231 |     generateAsm("ldw_r26_r24_imm_0_macro", LDW(R26, R24, 0));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:232:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  232 |     generateAsm("sub_r25_r26_r25_macro", SUB_R_R(R25, R26, R25));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:233:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  233 |     generateAsm("srl_r26_r25_imm_3_macro", SRL_IMM(R26, R25, 3));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:234:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  234 |     generateAsm("incr_r19_macro", INCR(R19));
+      |                 ^~~~~~~~~~~~~~~~
+denseMV.c:235:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  235 |     generateAsm("blt_r19_r26_imm_neg_4_macro", BLT(R19, R26, -4));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:236:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  236 |     generateAsm("blt_r19_r26_imm_neg_12_macro", BLT(R19, R26, -12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:237:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  237 |     generateAsm("blt_r19_r26_imm_neg_20_macro", BLT(R19, R26, -20));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:238:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  238 |     generateAsm("blt_r19_r26_imm_neg_24_macro", BLT(R19, R26, -24));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:239:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  239 |     generateAsm("blt_r19_r26_imm_neg_28_macro", BLT(R19, R26, -24));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:240:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  240 |     generateAsm("blt_r19_r26_imm_neg_32_macro", BLT(R19, R26, -32));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:241:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  241 |     generateAsm("blt_r19_r26_imm_neg_36_macro", BLT(R19, R26, -36));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:242:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  242 |     generateAsm("beq_r19_r26_imm_pos_12_macro", BEQ(R19, R26, 12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:243:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  243 |     generateAsm("beq_r19_r26_imm_pos_24_macro", BEQ(R19, R26, 24));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:244:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  244 |     generateAsm("beq_r19_r26_imm_pos_32_macro", BEQ(R19, R26, 32));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:245:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  245 |     generateAsm("beq_r19_r26_imm_pos_36_macro", BEQ(R19, R26, 36));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:246:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  246 |     generateAsm("beq_r19_r26_imm_pos_40_macro", BEQ(R19, R26, 40));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:247:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  247 |     generateAsm("beq_r19_r26_imm_pos_48_macro", BEQ(R19, R26, 48));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:248:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  248 |     generateAsm("nop", NOP);
+      |                 ^~~~~
+denseMV.c:249:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  249 |     generateAsm("vlwv_v27_r27_macro", VLWV(V27,R27));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c:250:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  250 |     generateAsm("vlwv_v28_r28_macro", VLWV(V28,R28));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c:251:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  251 |     generateAsm("incr32_r27_macro",INCR32(R27));
+      |                 ^~~~~~~~~~~~~~~~~~
+denseMV.c:252:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  252 |     generateAsm("incr4_r31_macro",INCR4(R31));
+      |                 ^~~~~~~~~~~~~~~~~
+denseMV.c:253:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  253 |     generateAsm("incr32_r28_macro",INCR32(R28));
+      |                 ^~~~~~~~~~~~~~~~~~
+denseMV.c:254:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  254 |     generateAsm("vsll_vi_v28_v28_imm_4_macro", VSLL_VI(V28, V28, 2, VM));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:255:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  255 |     generateAsm("vswv_r24_v28_macro", VSWV(R24, V28));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c:256:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  256 |     generateAsm("vswv_r31_v30_macro", VSWV(R31, V30));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c:257:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  257 |     generateAsm("vliwv_v29_r29_v28_macro", VLIWV(V29, R29, V28));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:258:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  258 |     generateAsm("vmul_vv_v29_v27_v29_vm_macro", VMUL_VV(V29, V27, V29, VM));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:259:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  259 |     generateAsm("vredsum_vs_v30_v30_v29_macro", VREDSUM_VS(V30, V30, V29, VM));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:260:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  260 |     generateAsm("reset_v30_r0_macro", VMV_VX(V30,R0));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c:261:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  261 |     generateAsm("vlwv_v29_r30_macro", VLWV(V29,R30));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c: In function 'void genHWHelper()':
+denseMV.c:285:23: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  285 |     loadConstantToReg("helper_base", HELPER_BASE, R30, &helper_base_lower_12);
+      |                       ^~~~~~~~~~~~~
+denseMV.c:289:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  289 |     generateAsm("stw_r30_r23_imm_0_macro", STW(R30, R23, 0));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:293:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  293 |     generateAsm("stw_r30_r24_imm_4_macro", STW(R30, R24, 4));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:297:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  297 |     generateAsm("stw_r30_r28_imm_8_macro", STW(R30, R28, 8));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:301:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  301 |     generateAsm("stw_r30_r29_imm_12_macro", STW(R30, R29, 12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:305:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  305 |     generateAsm("stw_r30_r0_imm_16_macro", STW(R30, R0, 16));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:310:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  310 |     generateAsm("add_r22_r0_imm_1_macro", ADD_IMM(R22, R0, 1));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:311:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  311 |     generateAsm("stw_r30_r22_imm_24_macro", STW(R30, R22, 24));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:315:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  315 |     generateAsm("add_r30_r30_imm_1024_macro", ADD_IMM(R30, R30, 1024));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c: In function 'void genDenseVector()':
+denseMV.c:686:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  686 |     generateAsm("add_r6_r0_imm_256_macro", ADD_IMM(R6,R0,256));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:687:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  687 |     generateAsm("vsetvli_r7_r6_e32_macro", VSETVLI(R7, R6, (E32 << VSEW_OFFSET)));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:693:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  693 |     generateAsm("ld_r10_m_upper_20_macro", LD_IMM(R10, m_upper_20));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:694:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  694 |     generateAsm("add_r10_r10_imm_m_lower_12_macro", ADD_IMM(R10, R10, m_lower_12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:700:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  700 |     generateAsm("ld_r13_v_upper_20_macro", LD_IMM(R13, v_upper_20));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:701:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  701 |     generateAsm("add_r13_r13_imm_v_lower_12_macro", ADD_IMM(R13, R13, v_lower_12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:707:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  707 |     generateAsm("ld_r28_y_upper_20_macro", LD_IMM(R28, y_upper_20));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:708:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  708 |     generateAsm("add_r28_r28_imm_y_lower_12_macro", ADD_IMM(R28, R28, y_lower_12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:710:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  710 |     generateAsm("ld_r12_imm_0xfffff_macro", LD_IMM(R12, 0xfffff));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:711:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  711 |     generateAsm("sub_r10_r10_r12_macro", SUB_R_R(R10,R10,R12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:712:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  712 |     generateAsm("sub_r11_r11_r12_macro", SUB_R_R(R11,R11,R12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:713:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  713 |     generateAsm("sub_r13_r13_r12_macro", SUB_R_R(R13,R13,R12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:714:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  714 |     generateAsm("sub_r28_r28_r12_macro", SUB_R_R(R28,R28,R12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:716:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  716 |     generateAsm("vlwv_v10_r10_macro", VLWV(V10,R10));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c:717:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  717 |     generateAsm("vlwv_v13_r13_macro", VLWV(V13,R13));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c:718:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  718 |     generateAsm("vadd_vv_v11_v10_v13_vm_macro", VADD_VV(V11,V10,V13,VM));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:719:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  719 |     generateAsm("vmul_vv_v11_v10_v13_vm_macro", VMUL_VV(V11,V10,V13,VM));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:720:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  720 |     generateAsm("vswv_r11_v11_macro", VSWV(R11,V11));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c:721:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  721 |     generateAsm("vswv_r28_v28_macro", VSWV(R28,V28));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c:722:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  722 |     generateAsm("add_10_10_imm_256_macro", ADD_IMM(R10,R10,0b000000100000));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:723:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  723 |     generateAsm("add_11_11_imm_256_macro", ADD_IMM(R11,R11,0b000000100000));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:724:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  724 |     generateAsm("add_11_11_imm_32_macro", ADD_IMM(R11,R11,0b000000000100));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:725:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  725 |     generateAsm("add_13_13_imm_256_macro", ADD_IMM(R13,R13,0b000000100000));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:726:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  726 |     generateAsm("add_28_28_imm_256_macro", ADD_IMM(R28,R28,0b000000100000));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:727:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  727 |     generateAsm("add_28_28_imm_32_macro", ADD_IMM(R28,R28,0b000000000100));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:729:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  729 |     generateAsm("vredsum_vs_v28_v28_v11_macro", VREDSUM_VS(V28, V28, V11, VM));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:732:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  732 |     generateAsm("cp_r29_r13_macro", ADD_IMM(R29, R13, 0));
+      |                 ^~~~~~~~~~~~~~~~~~
+denseMV.c:734:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  734 |     generateAsm("cp_r13_r29_macro", ADD_IMM(R13, R29, 0));
+      |                 ^~~~~~~~~~~~~~~~~~
+denseMV.c:737:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  737 |     generateAsm("reset_v28_r0_macro", VMV_VX(V28,R0));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c:740:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  740 |     generateAsm("move_r30_v28_macro", VMV_XV(R30,V28));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c:743:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  743 |     generateAsm("sw_r11_r30_macro", STW(R11, R30, 0));
+      |                 ^~~~~~~~~~~~~~~~~~
+Number of Instructions Executed: 23611052432
+Number of Cycles taken: 23817617926
+Buffer wait cycles: 0
+Memory wait cycles: 0
+denseMV.c:68:41: warning: integer overflow in expression of type 'int' results in '-1073741824' [-Woverflow]
+   68 | unsigned long HELPER_BASE = (3*1024*1024*1024); // modify this base
+      |                              ~~~~~~~~~~~^~~~~
+denseMV.c: In function 'void genSparseVector()':
+denseMV.c:187:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  187 |     generateAsm("ld_r12_imm_0xfffff_macro", LD_IMM(R12, 0xfffff));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:188:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  188 |     generateAsm("ld_r23_n_upper_20_macro", LD_IMM(R23, n_upper_20));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:189:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  189 |     generateAsm("add_r23_r23_imm_n_lower_12_macro", ADD_IMM(R23, R23, n_lower_12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:190:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  190 |     generateAsm("sub_r23_r23_r12_macro", SUB_R_R(R23, R23, R12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:191:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  191 |     generateAsm("ldw_r23_r23_imm_0_macro", LDW(R23, R23, 0));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:192:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  192 |     generateAsm("set_r18_0_macro", SET_0(R18));
+      |                 ^~~~~~~~~~~~~~~~~
+denseMV.c:193:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  193 |     generateAsm("set_r19_0_macro", SET_0(R19));
+      |                 ^~~~~~~~~~~~~~~~~
+denseMV.c:194:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  194 |     generateAsm("set_r20_0_macro", SET_0(R20));
+      |                 ^~~~~~~~~~~~~~~~~
+denseMV.c:195:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  195 |     generateAsm("set_r21_0_macro", SET_0(R21));
+      |                 ^~~~~~~~~~~~~~~~~
+denseMV.c:196:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  196 |     generateAsm("set_r22_0_macro", SET_0(R22));
+      |                 ^~~~~~~~~~~~~~~~~
+denseMV.c:197:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  197 |     generateAsm("incr_r18_macro", INCR(R18));
+      |                 ^~~~~~~~~~~~~~~~
+denseMV.c:198:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  198 |     generateAsm("blt_r18_r23_imm_neg_4_macro", BLT(R18, R23, -4));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:199:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  199 |     generateAsm("blt_r18_r23_imm_neg_20_macro", BLT(R18, R23, -20));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:200:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  200 |     generateAsm("blt_r18_r23_imm_neg_40_macro", BLT(R18, R23, -40));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:201:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  201 |     generateAsm("blt_r18_r23_imm_neg_52_macro", BLT(R18, R23, -52));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:202:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  202 |     generateAsm("blt_r18_r23_imm_neg_60_macro", BLT(R18, R23, -60));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:203:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  203 |     generateAsm("blt_r18_r23_imm_neg_64_macro", BLT(R18, R23, -64));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:204:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  204 |     generateAsm("blt_r18_r23_imm_neg_68_macro", BLT(R18, R23, -68));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:205:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  205 |     generateAsm("blt_r18_r23_imm_neg_80_macro", BLT(R18, R23, -80));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:206:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  206 |     generateAsm("blt_r18_r23_imm_neg_92_macro", BLT(R18, R23, -92));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:207:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  207 |     generateAsm("add_r6_r0_imm_256_macro", ADD_IMM(R6,R0,256));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:208:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  208 |     generateAsm("vsetvli_r7_r6_e32_macro", VSETVLI(R7, R6, (E32 << VSEW_OFFSET)));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:213:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  213 |     generateAsm("ld_r24_t_upper_20_macro", LD_IMM(R24, t_upper_20));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:214:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  214 |     generateAsm("add_r24_r24_imm_t_lower_12_macro", ADD_IMM(R24, R24, t_lower_12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:215:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  215 |     generateAsm("sub_r24_r24_r12_macro", SUB_R_R(R24, R24, R12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:216:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  216 |     generateAsm("stw_r24_r18_imm_0_macro", STW(R24, R18, 0));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:217:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  217 |     generateAsm("stw_r24_r25_imm_0_macro", STW(R24, R25, 0));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:219:23: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  219 |     loadConstantToReg("rows", (int)rows, R24, &rows_lower_12);
+      |                       ^~~~~~
+denseMV.c:221:23: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  221 |     loadConstantToReg("vals", (int)vals, R27, &vals_lower_12);
+      |                       ^~~~~~
+denseMV.c:223:23: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  223 |     loadConstantToReg("cols", (int)cols, R28, &cols_lower_12);
+      |                       ^~~~~~
+denseMV.c:226:23: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  226 |     loadConstantToReg("v", (int)v, R29, &v_lower_12);
+      |                       ^~~
+denseMV.c:227:23: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  227 |     loadConstantToReg("y", (int)y, R31, &y_lower_12);
+      |                       ^~~
+denseMV.c:229:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  229 |     generateAsm("incr_r24_by_4_macro", INCR4(R24));
+      |                 ^~~~~~~~~~~~~~~~~~~~~
+denseMV.c:230:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  230 |     generateAsm("ldw_r25_r24_imm_0_macro", LDW(R25, R24, 0));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:231:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  231 |     generateAsm("ldw_r26_r24_imm_0_macro", LDW(R26, R24, 0));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:232:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  232 |     generateAsm("sub_r25_r26_r25_macro", SUB_R_R(R25, R26, R25));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:233:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  233 |     generateAsm("srl_r26_r25_imm_3_macro", SRL_IMM(R26, R25, 3));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:234:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  234 |     generateAsm("incr_r19_macro", INCR(R19));
+      |                 ^~~~~~~~~~~~~~~~
+denseMV.c:235:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  235 |     generateAsm("blt_r19_r26_imm_neg_4_macro", BLT(R19, R26, -4));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:236:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  236 |     generateAsm("blt_r19_r26_imm_neg_12_macro", BLT(R19, R26, -12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:237:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  237 |     generateAsm("blt_r19_r26_imm_neg_20_macro", BLT(R19, R26, -20));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:238:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  238 |     generateAsm("blt_r19_r26_imm_neg_24_macro", BLT(R19, R26, -24));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:239:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  239 |     generateAsm("blt_r19_r26_imm_neg_28_macro", BLT(R19, R26, -24));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:240:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  240 |     generateAsm("blt_r19_r26_imm_neg_32_macro", BLT(R19, R26, -32));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:241:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  241 |     generateAsm("blt_r19_r26_imm_neg_36_macro", BLT(R19, R26, -36));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:242:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  242 |     generateAsm("beq_r19_r26_imm_pos_12_macro", BEQ(R19, R26, 12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:243:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  243 |     generateAsm("beq_r19_r26_imm_pos_24_macro", BEQ(R19, R26, 24));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:244:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  244 |     generateAsm("beq_r19_r26_imm_pos_32_macro", BEQ(R19, R26, 32));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:245:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  245 |     generateAsm("beq_r19_r26_imm_pos_36_macro", BEQ(R19, R26, 36));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:246:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  246 |     generateAsm("beq_r19_r26_imm_pos_40_macro", BEQ(R19, R26, 40));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:247:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  247 |     generateAsm("beq_r19_r26_imm_pos_48_macro", BEQ(R19, R26, 48));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:248:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  248 |     generateAsm("nop", NOP);
+      |                 ^~~~~
+denseMV.c:249:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  249 |     generateAsm("vlwv_v27_r27_macro", VLWV(V27,R27));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c:250:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  250 |     generateAsm("vlwv_v28_r28_macro", VLWV(V28,R28));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c:251:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  251 |     generateAsm("incr32_r27_macro",INCR32(R27));
+      |                 ^~~~~~~~~~~~~~~~~~
+denseMV.c:252:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  252 |     generateAsm("incr4_r31_macro",INCR4(R31));
+      |                 ^~~~~~~~~~~~~~~~~
+denseMV.c:253:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  253 |     generateAsm("incr32_r28_macro",INCR32(R28));
+      |                 ^~~~~~~~~~~~~~~~~~
+denseMV.c:254:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  254 |     generateAsm("vsll_vi_v28_v28_imm_4_macro", VSLL_VI(V28, V28, 2, VM));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:255:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  255 |     generateAsm("vswv_r24_v28_macro", VSWV(R24, V28));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c:256:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  256 |     generateAsm("vswv_r31_v30_macro", VSWV(R31, V30));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c:257:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  257 |     generateAsm("vliwv_v29_r29_v28_macro", VLIWV(V29, R29, V28));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:258:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  258 |     generateAsm("vmul_vv_v29_v27_v29_vm_macro", VMUL_VV(V29, V27, V29, VM));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:259:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  259 |     generateAsm("vredsum_vs_v30_v30_v29_macro", VREDSUM_VS(V30, V30, V29, VM));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:260:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  260 |     generateAsm("reset_v30_r0_macro", VMV_VX(V30,R0));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c:261:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  261 |     generateAsm("vlwv_v29_r30_macro", VLWV(V29,R30));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c: In function 'void genHWHelper()':
+denseMV.c:285:23: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  285 |     loadConstantToReg("helper_base", HELPER_BASE, R30, &helper_base_lower_12);
+      |                       ^~~~~~~~~~~~~
+denseMV.c:289:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  289 |     generateAsm("stw_r30_r23_imm_0_macro", STW(R30, R23, 0));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:293:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  293 |     generateAsm("stw_r30_r24_imm_4_macro", STW(R30, R24, 4));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:297:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  297 |     generateAsm("stw_r30_r28_imm_8_macro", STW(R30, R28, 8));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:301:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  301 |     generateAsm("stw_r30_r29_imm_12_macro", STW(R30, R29, 12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:305:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  305 |     generateAsm("stw_r30_r0_imm_16_macro", STW(R30, R0, 16));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:310:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  310 |     generateAsm("add_r22_r0_imm_1_macro", ADD_IMM(R22, R0, 1));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:311:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  311 |     generateAsm("stw_r30_r22_imm_24_macro", STW(R30, R22, 24));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:315:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  315 |     generateAsm("add_r30_r30_imm_1024_macro", ADD_IMM(R30, R30, 1024));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c: In function 'void genDenseVector()':
+denseMV.c:686:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  686 |     generateAsm("add_r6_r0_imm_256_macro", ADD_IMM(R6,R0,256));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:687:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  687 |     generateAsm("vsetvli_r7_r6_e32_macro", VSETVLI(R7, R6, (E32 << VSEW_OFFSET)));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:693:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  693 |     generateAsm("ld_r10_m_upper_20_macro", LD_IMM(R10, m_upper_20));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:694:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  694 |     generateAsm("add_r10_r10_imm_m_lower_12_macro", ADD_IMM(R10, R10, m_lower_12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:700:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  700 |     generateAsm("ld_r13_v_upper_20_macro", LD_IMM(R13, v_upper_20));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:701:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  701 |     generateAsm("add_r13_r13_imm_v_lower_12_macro", ADD_IMM(R13, R13, v_lower_12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:707:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  707 |     generateAsm("ld_r28_y_upper_20_macro", LD_IMM(R28, y_upper_20));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:708:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  708 |     generateAsm("add_r28_r28_imm_y_lower_12_macro", ADD_IMM(R28, R28, y_lower_12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:710:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  710 |     generateAsm("ld_r12_imm_0xfffff_macro", LD_IMM(R12, 0xfffff));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:711:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  711 |     generateAsm("sub_r10_r10_r12_macro", SUB_R_R(R10,R10,R12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:712:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  712 |     generateAsm("sub_r11_r11_r12_macro", SUB_R_R(R11,R11,R12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:713:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  713 |     generateAsm("sub_r13_r13_r12_macro", SUB_R_R(R13,R13,R12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:714:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  714 |     generateAsm("sub_r28_r28_r12_macro", SUB_R_R(R28,R28,R12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:716:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  716 |     generateAsm("vlwv_v10_r10_macro", VLWV(V10,R10));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c:717:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  717 |     generateAsm("vlwv_v13_r13_macro", VLWV(V13,R13));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c:718:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  718 |     generateAsm("vadd_vv_v11_v10_v13_vm_macro", VADD_VV(V11,V10,V13,VM));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:719:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  719 |     generateAsm("vmul_vv_v11_v10_v13_vm_macro", VMUL_VV(V11,V10,V13,VM));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:720:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  720 |     generateAsm("vswv_r11_v11_macro", VSWV(R11,V11));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c:721:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  721 |     generateAsm("vswv_r28_v28_macro", VSWV(R28,V28));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c:722:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  722 |     generateAsm("add_10_10_imm_256_macro", ADD_IMM(R10,R10,0b000000100000));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:723:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  723 |     generateAsm("add_11_11_imm_256_macro", ADD_IMM(R11,R11,0b000000100000));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:724:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  724 |     generateAsm("add_11_11_imm_32_macro", ADD_IMM(R11,R11,0b000000000100));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:725:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  725 |     generateAsm("add_13_13_imm_256_macro", ADD_IMM(R13,R13,0b000000100000));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:726:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  726 |     generateAsm("add_28_28_imm_256_macro", ADD_IMM(R28,R28,0b000000100000));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:727:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  727 |     generateAsm("add_28_28_imm_32_macro", ADD_IMM(R28,R28,0b000000000100));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:729:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  729 |     generateAsm("vredsum_vs_v28_v28_v11_macro", VREDSUM_VS(V28, V28, V11, VM));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+denseMV.c:732:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  732 |     generateAsm("cp_r29_r13_macro", ADD_IMM(R29, R13, 0));
+      |                 ^~~~~~~~~~~~~~~~~~
+denseMV.c:734:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  734 |     generateAsm("cp_r13_r29_macro", ADD_IMM(R13, R29, 0));
+      |                 ^~~~~~~~~~~~~~~~~~
+denseMV.c:737:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  737 |     generateAsm("reset_v28_r0_macro", VMV_VX(V28,R0));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c:740:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  740 |     generateAsm("move_r30_v28_macro", VMV_XV(R30,V28));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+denseMV.c:743:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  743 |     generateAsm("sw_r11_r30_macro", STW(R11, R30, 0));
+      |                 ^~~~~~~~~~~~~~~~~~
+./sparseVector.sh: 17: ./sparseVector.sh: riscv32-unknown-elf-objdump: not found
+bbl loader
+rows at 0x4042f38
+Cols at 0x4046f40
+vals at 0x8087048
+end of col idx
+#define add_r6_r0_imm_256_macro asm volatile (".word 0x10000313")
+#define vsetvli_r7_r6_e32_macro asm volatile (".word 0x8373d7")
+#define ld_r10_m_upper_20_macro asm volatile (".word 0x3a537")
+#define add_r10_r10_imm_m_lower_12_macro asm volatile (".word 0xee050513")
+#define ld_r13_v_upper_20_macro asm volatile (".word 0x403a6b7")
+#define add_r13_r13_imm_v_lower_12_macro asm volatile (".word 0xee868693")
+#define ld_r28_y_upper_20_macro asm volatile (".word 0x403ee37")
+#define add_r28_r28_imm_y_lower_12_macro asm volatile (".word 0xf10e0e13")
+#define ld_r12_imm_0xfffff_macro asm volatile (".word 0xfffff637")
+#define sub_r10_r10_r12_macro asm volatile (".word 0x40c50533")
+#define sub_r11_r11_r12_macro asm volatile (".word 0x40c585b3")
+#define sub_r13_r13_r12_macro asm volatile (".word 0x40c686b3")
+#define sub_r28_r28_r12_macro asm volatile (".word 0x40ce0e33")
+#define vlwv_v10_r10_macro asm volatile (".word 0x2056507")
+#define vlwv_v13_r13_macro asm volatile (".word 0x206e687")
+#define vadd_vv_v11_v10_v13_vm_macro asm volatile (".word 0x2d505d7")
+#define vmul_vv_v11_v10_v13_vm_macro asm volatile (".word 0x96d525d7")
+#define vswv_r11_v11_macro asm volatile (".word 0x205e5a7")
+#define vswv_r28_v28_macro asm volatile (".word 0x20e6e27")
+#define add_10_10_imm_256_macro asm volatile (".word 0x2050513")
+#define add_11_11_imm_256_macro asm volatile (".word 0x2058593")
+#define add_11_11_imm_32_macro asm volatile (".word 0x458593")
+#define add_13_13_imm_256_macro asm volatile (".word 0x2068693")
+#define add_28_28_imm_256_macro asm volatile (".word 0x20e0e13")
+#define add_28_28_imm_32_macro asm volatile (".word 0x4e0e13")
+#define vredsum_vs_v28_v28_v11_macro asm volatile (".word 0x2be2e57")
+#define cp_r29_r13_macro asm volatile (".word 0x68e93")
+#define cp_r13_r29_macro asm volatile (".word 0xe8693")
+#define reset_v28_r0_macro asm volatile (".word 0x5e004e57")
+#define move_r30_v28_macro asm volatile (".word 0x5fc06f57")
+#define sw_r11_r30_macro asm volatile (".word 0x1e5a023")
+#define ld_r12_imm_0xfffff_macro asm volatile (".word 0xfffff637")
+#define ld_r23_n_upper_20_macro asm volatile (".word 0x3abb7")
+#define add_r23_r23_imm_n_lower_12_macro asm volatile (".word 0x4b0b8b93")
+#define sub_r23_r23_r12_macro asm volatile (".word 0x40cb8bb3")
+#define ldw_r23_r23_imm_0_macro asm volatile (".word 0xbab83")
+#define set_r18_0_macro asm volatile (".word 0x913")
+#define set_r19_0_macro asm volatile (".word 0x993")
+#define set_r20_0_macro asm volatile (".word 0xa13")
+#define set_r21_0_macro asm volatile (".word 0xa93")
+#define set_r22_0_macro asm volatile (".word 0xb13")
+#define incr_r18_macro asm volatile (".word 0x190913")
+#define blt_r18_r23_imm_neg_4_macro asm volatile (".word 0xff794ee3")
+#define blt_r18_r23_imm_neg_20_macro asm volatile (".word 0xff7946e3")
+#define blt_r18_r23_imm_neg_40_macro asm volatile (".word 0xfd794ce3")
+#define blt_r18_r23_imm_neg_52_macro asm volatile (".word 0xfd7946e3")
+#define blt_r18_r23_imm_neg_60_macro asm volatile (".word 0xfd7942e3")
+#define blt_r18_r23_imm_neg_64_macro asm volatile (".word 0xfd7940e3")
+#define blt_r18_r23_imm_neg_68_macro asm volatile (".word 0xfb794ee3")
+#define blt_r18_r23_imm_neg_80_macro asm volatile (".word 0xfb7948e3")
+#define blt_r18_r23_imm_neg_92_macro asm volatile (".word 0xfb7942e3")
+#define add_r6_r0_imm_256_macro asm volatile (".word 0x10000313")
+#define vsetvli_r7_r6_e32_macro asm volatile (".word 0x8373d7")
+#define ld_r24_t_upper_20_macro asm volatile (".word 0x3ac37")
+#define add_r24_r24_imm_t_lower_12_macro asm volatile (".word 0x458c0c13")
+#define sub_r24_r24_r12_macro asm volatile (".word 0x40cc0c33")
+#define stw_r24_r18_imm_0_macro asm volatile (".word 0x12c2023")
+#define stw_r24_r25_imm_0_macro asm volatile (".word 0x19c2023")
+#define ld_r24_rows_upper_20_macro asm volatile (".word 0x4042c37")
+#define add_r24_r24_imm_rows_lower_12_macro asm volatile (".word 0xf38c0c13")
+#define sub_r24_r24_r12_macro asm volatile (".word 0x40cc0c33")
+#define ld_r27_vals_upper_20_macro asm volatile (".word 0x8087db7")
+#define add_r27_r27_imm_vals_lower_12_macro asm volatile (".word 0x48d8d93")
+#define sub_r27_r27_r12_macro asm volatile (".word 0x40cd8db3")
+#define ld_r28_cols_upper_20_macro asm volatile (".word 0x4046e37")
+#define add_r28_r28_imm_cols_lower_12_macro asm volatile (".word 0xf40e0e13")
+#define sub_r28_r28_r12_macro asm volatile (".word 0x40ce0e33")
+cols at 0x4046f40
+#define ld_r29_v_upper_20_macro asm volatile (".word 0x403aeb7")
+#define add_r29_r29_imm_v_lower_12_macro asm volatile (".word 0xee8e8e93")
+#define sub_r29_r29_r12_macro asm volatile (".word 0x40ce8eb3")
+#define ld_r31_y_upper_20_macro asm volatile (".word 0x403efb7")
+#define add_r31_r31_imm_y_lower_12_macro asm volatile (".word 0xf10f8f93")
+#define sub_r31_r31_r12_macro asm volatile (".word 0x40cf8fb3")
+#define incr_r24_by_4_macro asm volatile (".word 0x4c0c13")
+#define ldw_r25_r24_imm_0_macro asm volatile (".word 0xc2c83")
+#define ldw_r26_r24_imm_0_macro asm volatile (".word 0xc2d03")
+#define sub_r25_r26_r25_macro asm volatile (".word 0x419d0cb3")
+#define srl_r26_r25_imm_3_macro asm volatile (".word 0x3cdd13")
+#define incr_r19_macro asm volatile (".word 0x198993")
+#define blt_r19_r26_imm_neg_4_macro asm volatile (".word 0xffa9cee3")
+#define blt_r19_r26_imm_neg_12_macro asm volatile (".word 0xffa9cae3")
+#define blt_r19_r26_imm_neg_20_macro asm volatile (".word 0xffa9c6e3")
+#define blt_r19_r26_imm_neg_24_macro asm volatile (".word 0xffa9c4e3")
+#define blt_r19_r26_imm_neg_28_macro asm volatile (".word 0xffa9c4e3")
+#define blt_r19_r26_imm_neg_32_macro asm volatile (".word 0xffa9c0e3")
+#define blt_r19_r26_imm_neg_36_macro asm volatile (".word 0xfda9cee3")
+#define beq_r19_r26_imm_pos_12_macro asm volatile (".word 0x1a98663")
+#define beq_r19_r26_imm_pos_24_macro asm volatile (".word 0x1a98c63")
+#define beq_r19_r26_imm_pos_32_macro asm volatile (".word 0x3a98063")
+#define beq_r19_r26_imm_pos_36_macro asm volatile (".word 0x3a98263")
+#define beq_r19_r26_imm_pos_40_macro asm volatile (".word 0x3a98463")
+#define beq_r19_r26_imm_pos_48_macro asm volatile (".word 0x3a98863")
+#define nop asm volatile (".word 0x13")
+#define vlwv_v27_r27_macro asm volatile (".word 0x20ded87")
+#define vlwv_v28_r28_macro asm volatile (".word 0x20e6e07")
+#define incr32_r27_macro asm volatile (".word 0x20d8d93")
+#define incr4_r31_macro asm volatile (".word 0x4f8f93")
+#define incr32_r28_macro asm volatile (".word 0x20e0e13")
+#define vsll_vi_v28_v28_imm_4_macro asm volatile (".word 0x97c13e57")
+#define vswv_r24_v28_macro asm volatile (".word 0x20c6e27")
+#define vswv_r31_v30_macro asm volatile (".word 0x20fefa7")
+#define vliwv_v29_r29_v28_macro asm volatile (".word 0xfceee87")
+#define vmul_vv_v29_v27_v29_vm_macro asm volatile (".word 0x97ddaed7")
+#define vredsum_vs_v30_v30_v29_macro asm volatile (".word 0x3dfafd7")
+#define reset_v30_r0_macro asm volatile (".word 0x5e004fd7")
+#define vlwv_v29_r30_macro asm volatile (".word 0x20f6e87")
+#define ld_r30_helper_base_upper_20_macro asm volatile (".word 0xc0000f37")
+#define add_r30_r30_imm_helper_base_lower_12_macro asm volatile (".word 0xf0f13")
+#define sub_r30_r30_r12_macro asm volatile (".word 0x40cf0f33")
+#define stw_r30_r23_imm_0_macro asm volatile (".word 0x17f2023")
+#define stw_r30_r24_imm_4_macro asm volatile (".word 0x18f2223")
+#define stw_r30_r28_imm_8_macro asm volatile (".word 0x1cf2423")
+#define stw_r30_r29_imm_12_macro asm volatile (".word 0x1df2623")
+#define stw_r30_r0_imm_16_macro asm volatile (".word 0xf2823")
+#define add_r22_r0_imm_1_macro asm volatile (".word 0x100b13")
+#define stw_r30_r22_imm_24_macro asm volatile (".word 0x16f2c23")
+#define add_r30_r30_imm_1024_macro asm volatile (".word 0x400f0f13")
+last_op is 307514212
+Input: /home/UNT/sa0659/RISCV/spike/riscv-isa-sim-spmv/tests/spmv/temp_dense.dat; Matrix Dim: 4096 by 4096; NNZ: 8219864; Sparsity: 0.510058; Took 260376782 cycles
+Last expected: 307514212
+Last output: 307514212
+Passed!
+Number of Instructions Executed: 23621513641
+Number of Cycles taken: 24051581412
+Buffer wait cycles: 0
+Memory wait cycles: 247367104
+Total Row miss:2124907
+Total Request count:10182686
+Total Row miss:0
+Total Request count:0
+L2$ Bytes Read:            334403200
+L2$ Bytes Written:         133604416
+L2$ Read Accesses:         10450100
+L2$ Write Accesses:        4175138
+L2$ Read Misses:           10179440
+L2$ Write Misses:          318734
+L2$ Writebacks:            4159843
+L2$ Miss Rate:             71.781%
+D$ Bytes Read:            5073563518
+D$ Bytes Written:         4458672759
+D$ Read Accesses:         1511058661
+D$ Write Accesses:        1146023249
+D$ Read Misses:           6279541
+D$ Write Misses:          4170559
+D$ Writebacks:            4175138
+D$ Miss Rate:             0.393%

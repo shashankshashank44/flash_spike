@@ -1,0 +1,33 @@
+bbl loader
+Number of Instructions Executed: 404036446
+Number of Cycles taken: 404224041
+Buffer wait cycles: 0
+Memory wait cycles: 0
+ROI Row conflicts:0
+ROI Request count:0
+Total Request count:50696
+Total Prefetches:0
+Total Prefetch hits:0
+Prefetch wait times:0
+ROI Row conflicts:0
+ROI Request count:0
+Total Request count:0
+Total Prefetches:0
+Total Prefetch hits:0
+Prefetch wait times:0
+L2$ Bytes Read:            1623552
+L2$ Bytes Written:         150976
+L2$ Read Accesses:         50736
+L2$ Write Accesses:        4718
+L2$ Read Misses:           50696
+L2$ Write Misses:          25
+L2$ Writebacks:            48
+L2$ Miss Rate:             91.465%
+D$ Bytes Read:            104532072
+D$ Bytes Written:         93912841
+D$ Read Accesses:         31803005
+D$ Write Accesses:        24280334
+D$ Read Misses:           124
+D$ Write Misses:          50612
+D$ Writebacks:            4718
+D$ Miss Rate:             0.090%

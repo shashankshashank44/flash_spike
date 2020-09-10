@@ -1,0 +1,9 @@
+% mnemonic opcode delay
+% Reference: Intel Skylake-X timings
+VLW_V 0x10006007 1
+%VLWU_V 0x6007 1
+VMUL_VV 0x94002057 4
+%VMUL_VV 0xfc00707f 4
+VREDSUM_VS 0x2057 4
+%VREDSUM_VS  0xfc00707f 4
+VSLL_VI 0x94003057 4

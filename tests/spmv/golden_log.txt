@@ -1,0 +1,6 @@
+last_op is 36486
+Took 75811 cycles
+Last expected: 36486
+Last output: 36486
+Passed!
+

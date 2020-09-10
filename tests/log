@@ -1,0 +1,384 @@
+rm: cannot remove 'a.out': No such file or directory
+spmv.c: In function 'int main()':
+spmv.c:37:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   37 |     generateAsm("add_r6_r0_imm_256_macro", ADD_IMM(R6,R0,256));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:38:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   38 |     generateAsm("vsetvli_r7_r6_e32_macro", VSETVLI(R7, R6, (E32 << VSEW_OFFSET)));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:44:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   44 |     generateAsm("ld_r10_a_upper_20_macro", LD_IMM(R10, a_upper_20));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:46:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   46 |     generateAsm("add_r10_r10_imm_a_lower_12_macro", ADD_IMM(R10, R10, a_lower_12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:52:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   52 |     generateAsm("ld_r13_b_upper_20_macro", LD_IMM(R13, b_upper_20));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:53:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   53 |     generateAsm("add_r13_r13_imm_b_lower_12_macro", ADD_IMM(R13, R13, b_lower_12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:59:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   59 |     generateAsm("ld_r11_c_upper_20_macro", LD_IMM(R11, c_upper_20));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:60:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   60 |     generateAsm("add_r11_r11_imm_c_lower_12_macro", ADD_IMM(R11, R11, c_lower_12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:68:30: error: 'd_lower_20' was not declared in this scope; did you mean 'd_lower_12'?
+   68 |     printf("d_lower 0x%x\n", d_lower_20);
+      |                              ^~~~~~~~~~
+      |                              d_lower_12
+spmv.c:69:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   69 |     generateAsm("ld_r14_d_upper_20_macro", LD_IMM(R14, d_upper_20));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:70:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   70 |     generateAsm("add_r14_r14_imm_d_lower_12_macro", ADD_IMM(R14, R14, d_lower_12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:72:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   72 |     generateAsm("ld_r12_imm_0xfffff_macro", LD_IMM(R12, 0xfffff));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:73:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   73 |     generateAsm("sub_r10_r10_r12_macro", SUB_R_R(R10,R10,R12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:74:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   74 |     generateAsm("sub_r11_r11_r12_macro", SUB_R_R(R11,R11,R12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:75:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   75 |     generateAsm("sub_r13_r13_r12_macro", SUB_R_R(R13,R13,R12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:76:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   76 |     generateAsm("sub_r14_r14_r12_macro", SUB_R_R(R14,R14,R12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:78:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   78 |     generateAsm("vlwv_v10_r10_macro", VLWV(V10,R10));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+spmv.c:79:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   79 |     generateAsm("vlwv_v13_r13_macro", VLWV(V13,R13));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+spmv.c:80:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   80 |     generateAsm("vadd_vv_v11_v10_v13_vm_macro", VADD_VV(V11,V10,V13,VM));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:81:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   81 |     generateAsm("vmul_vv_v11_v10_v13_vm_macro", VMUL_VV(V11,V10,V13,VM));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:82:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   82 |     generateAsm("vswv_r11_v11_macro", VSWV(R11,V11));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+spmv.c:83:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   83 |     generateAsm("vswv_r14_v14_macro", VSWV(R14,V14));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+spmv.c:84:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   84 |     generateAsm("add_10_10_imm_256_macro", ADD_IMM(R10,R10,0b000000100000));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:85:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   85 |     generateAsm("add_11_11_imm_256_macro", ADD_IMM(R11,R11,0b000000100000));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:86:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   86 |     generateAsm("add_13_13_imm_256_macro", ADD_IMM(R13,R13,0b000000100000));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:87:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   87 |     generateAsm("vredsum_vs_v14_v14_v11_macro", VREDSUM_VS(V14, V14, V11, VM));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Number of Instructions Executed: 255038
+spmv.c: In function 'int main()':
+spmv.c:37:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   37 |     generateAsm("add_r6_r0_imm_256_macro", ADD_IMM(R6,R0,256));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:38:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   38 |     generateAsm("vsetvli_r7_r6_e32_macro", VSETVLI(R7, R6, (E32 << VSEW_OFFSET)));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:44:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   44 |     generateAsm("ld_r10_a_upper_20_macro", LD_IMM(R10, a_upper_20));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:46:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   46 |     generateAsm("add_r10_r10_imm_a_lower_12_macro", ADD_IMM(R10, R10, a_lower_12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:52:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   52 |     generateAsm("ld_r13_b_upper_20_macro", LD_IMM(R13, b_upper_20));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:53:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   53 |     generateAsm("add_r13_r13_imm_b_lower_12_macro", ADD_IMM(R13, R13, b_lower_12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:59:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   59 |     generateAsm("ld_r11_c_upper_20_macro", LD_IMM(R11, c_upper_20));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:60:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   60 |     generateAsm("add_r11_r11_imm_c_lower_12_macro", ADD_IMM(R11, R11, c_lower_12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:68:30: error: 'd_lower_20' was not declared in this scope; did you mean 'd_lower_12'?
+   68 |     printf("d_lower 0x%x\n", d_lower_20);
+      |                              ^~~~~~~~~~
+      |                              d_lower_12
+spmv.c:69:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   69 |     generateAsm("ld_r14_d_upper_20_macro", LD_IMM(R14, d_upper_20));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:70:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   70 |     generateAsm("add_r14_r14_imm_d_lower_12_macro", ADD_IMM(R14, R14, d_lower_12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:72:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   72 |     generateAsm("ld_r12_imm_0xfffff_macro", LD_IMM(R12, 0xfffff));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:73:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   73 |     generateAsm("sub_r10_r10_r12_macro", SUB_R_R(R10,R10,R12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:74:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   74 |     generateAsm("sub_r11_r11_r12_macro", SUB_R_R(R11,R11,R12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:75:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   75 |     generateAsm("sub_r13_r13_r12_macro", SUB_R_R(R13,R13,R12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:76:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   76 |     generateAsm("sub_r14_r14_r12_macro", SUB_R_R(R14,R14,R12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:78:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   78 |     generateAsm("vlwv_v10_r10_macro", VLWV(V10,R10));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+spmv.c:79:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   79 |     generateAsm("vlwv_v13_r13_macro", VLWV(V13,R13));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+spmv.c:80:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   80 |     generateAsm("vadd_vv_v11_v10_v13_vm_macro", VADD_VV(V11,V10,V13,VM));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:81:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   81 |     generateAsm("vmul_vv_v11_v10_v13_vm_macro", VMUL_VV(V11,V10,V13,VM));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:82:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   82 |     generateAsm("vswv_r11_v11_macro", VSWV(R11,V11));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+spmv.c:83:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   83 |     generateAsm("vswv_r14_v14_macro", VSWV(R14,V14));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+spmv.c:84:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   84 |     generateAsm("add_10_10_imm_256_macro", ADD_IMM(R10,R10,0b000000100000));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:85:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   85 |     generateAsm("add_11_11_imm_256_macro", ADD_IMM(R11,R11,0b000000100000));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:86:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   86 |     generateAsm("add_13_13_imm_256_macro", ADD_IMM(R13,R13,0b000000100000));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:87:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   87 |     generateAsm("vredsum_vs_v14_v14_v11_macro", VREDSUM_VS(V14, V14, V11, VM));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:94:5: error: 'add_r6_r0_imm_256_macro' was not declared in this scope
+   94 |     add_r6_r0_imm_256_macro;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:95:5: error: 'vsetvli_r7_r6_e32_macro' was not declared in this scope
+   95 |     vsetvli_r7_r6_e32_macro;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:97:5: error: 'ld_r10_a_upper_20_macro' was not declared in this scope
+   97 |     ld_r10_a_upper_20_macro;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:98:5: error: 'add_r10_r10_imm_a_lower_12_macro' was not declared in this scope
+   98 |     add_r10_r10_imm_a_lower_12_macro;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:99:5: error: 'ld_r12_imm_0xfffff_macro' was not declared in this scope
+   99 |     ld_r12_imm_0xfffff_macro;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:100:29: error: 'sub_r10_r10_r12_macro' was not declared in this scope
+  100 |     if (a_lower_12 & 0x800) sub_r10_r10_r12_macro;
+      |                             ^~~~~~~~~~~~~~~~~~~~~
+spmv.c:102:5: error: 'ld_r11_c_upper_20_macro' was not declared in this scope
+  102 |     ld_r11_c_upper_20_macro;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:103:5: error: 'add_r11_r11_imm_c_lower_12_macro' was not declared in this scope
+  103 |     add_r11_r11_imm_c_lower_12_macro;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:104:29: error: 'sub_r11_r11_r12_macro' was not declared in this scope
+  104 |     if (c_lower_12 & 0x800) sub_r11_r11_r12_macro;
+      |                             ^~~~~~~~~~~~~~~~~~~~~
+spmv.c:106:5: error: 'ld_r13_b_upper_20_macro' was not declared in this scope
+  106 |     ld_r13_b_upper_20_macro;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:107:5: error: 'add_r13_r13_imm_b_lower_12_macro' was not declared in this scope
+  107 |     add_r13_r13_imm_b_lower_12_macro;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:108:29: error: 'sub_r13_r13_r12_macro' was not declared in this scope
+  108 |     if (b_lower_12 & 0x800) sub_r13_r13_r12_macro;
+      |                             ^~~~~~~~~~~~~~~~~~~~~
+spmv.c:110:5: error: 'ld_r14_d_upper_20_macro' was not declared in this scope
+  110 |     ld_r14_d_upper_20_macro;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:111:5: error: 'add_r14_r14_imm_d_lower_12_macro' was not declared in this scope
+  111 |     add_r14_r14_imm_d_lower_12_macro;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:112:29: error: 'sub_r14_r14_r12_macro' was not declared in this scope
+  112 |     if (d_lower_12 & 0x800) sub_r14_r14_r12_macro;
+      |                             ^~~~~~~~~~~~~~~~~~~~~
+spmv.c:116:9: error: 'vlwv_v10_r10_macro' was not declared in this scope
+  116 |         vlwv_v10_r10_macro;
+      |         ^~~~~~~~~~~~~~~~~~
+spmv.c:117:9: error: 'vlwv_v13_r13_macro' was not declared in this scope
+  117 |         vlwv_v13_r13_macro;
+      |         ^~~~~~~~~~~~~~~~~~
+spmv.c:118:9: error: 'vmul_vv_v11_v10_v13_vm_macro' was not declared in this scope
+  118 |         vmul_vv_v11_v10_v13_vm_macro;
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:120:9: error: 'vswv_r11_v11_macro' was not declared in this scope
+  120 |         vswv_r11_v11_macro;
+      |         ^~~~~~~~~~~~~~~~~~
+spmv.c:121:9: error: 'add_10_10_imm_256_macro' was not declared in this scope
+  121 |         add_10_10_imm_256_macro;
+      |         ^~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:122:9: error: 'add_11_11_imm_256_macro' was not declared in this scope
+  122 |         add_11_11_imm_256_macro;
+      |         ^~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:123:9: error: 'add_13_13_imm_256_macro' was not declared in this scope
+  123 |         add_13_13_imm_256_macro;
+      |         ^~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:125:5: error: 'vswv_r14_v14_macro' was not declared in this scope
+  125 |     vswv_r14_v14_macro;
+      |     ^~~~~~~~~~~~~~~~~~
+Number of Instructions Executed: 255038
+spmv.c: In function 'int main()':
+spmv.c:37:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   37 |     generateAsm("add_r6_r0_imm_256_macro", ADD_IMM(R6,R0,256));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:38:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   38 |     generateAsm("vsetvli_r7_r6_e32_macro", VSETVLI(R7, R6, (E32 << VSEW_OFFSET)));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:44:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   44 |     generateAsm("ld_r10_a_upper_20_macro", LD_IMM(R10, a_upper_20));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:46:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   46 |     generateAsm("add_r10_r10_imm_a_lower_12_macro", ADD_IMM(R10, R10, a_lower_12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:52:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   52 |     generateAsm("ld_r13_b_upper_20_macro", LD_IMM(R13, b_upper_20));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:53:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   53 |     generateAsm("add_r13_r13_imm_b_lower_12_macro", ADD_IMM(R13, R13, b_lower_12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:59:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   59 |     generateAsm("ld_r11_c_upper_20_macro", LD_IMM(R11, c_upper_20));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:60:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   60 |     generateAsm("add_r11_r11_imm_c_lower_12_macro", ADD_IMM(R11, R11, c_lower_12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:68:30: error: 'd_lower_20' was not declared in this scope; did you mean 'd_lower_12'?
+   68 |     printf("d_lower 0x%x\n", d_lower_20);
+      |                              ^~~~~~~~~~
+      |                              d_lower_12
+spmv.c:69:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   69 |     generateAsm("ld_r14_d_upper_20_macro", LD_IMM(R14, d_upper_20));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:70:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   70 |     generateAsm("add_r14_r14_imm_d_lower_12_macro", ADD_IMM(R14, R14, d_lower_12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:72:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   72 |     generateAsm("ld_r12_imm_0xfffff_macro", LD_IMM(R12, 0xfffff));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:73:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   73 |     generateAsm("sub_r10_r10_r12_macro", SUB_R_R(R10,R10,R12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:74:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   74 |     generateAsm("sub_r11_r11_r12_macro", SUB_R_R(R11,R11,R12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:75:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   75 |     generateAsm("sub_r13_r13_r12_macro", SUB_R_R(R13,R13,R12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:76:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   76 |     generateAsm("sub_r14_r14_r12_macro", SUB_R_R(R14,R14,R12));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:78:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   78 |     generateAsm("vlwv_v10_r10_macro", VLWV(V10,R10));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+spmv.c:79:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   79 |     generateAsm("vlwv_v13_r13_macro", VLWV(V13,R13));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+spmv.c:80:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   80 |     generateAsm("vadd_vv_v11_v10_v13_vm_macro", VADD_VV(V11,V10,V13,VM));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:81:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   81 |     generateAsm("vmul_vv_v11_v10_v13_vm_macro", VMUL_VV(V11,V10,V13,VM));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:82:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   82 |     generateAsm("vswv_r11_v11_macro", VSWV(R11,V11));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+spmv.c:83:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   83 |     generateAsm("vswv_r14_v14_macro", VSWV(R14,V14));
+      |                 ^~~~~~~~~~~~~~~~~~~~
+spmv.c:84:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   84 |     generateAsm("add_10_10_imm_256_macro", ADD_IMM(R10,R10,0b000000100000));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:85:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   85 |     generateAsm("add_11_11_imm_256_macro", ADD_IMM(R11,R11,0b000000100000));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:86:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   86 |     generateAsm("add_13_13_imm_256_macro", ADD_IMM(R13,R13,0b000000100000));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:87:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   87 |     generateAsm("vredsum_vs_v14_v14_v11_macro", VREDSUM_VS(V14, V14, V11, VM));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:94:5: error: 'add_r6_r0_imm_256_macro' was not declared in this scope
+   94 |     add_r6_r0_imm_256_macro;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:95:5: error: 'vsetvli_r7_r6_e32_macro' was not declared in this scope
+   95 |     vsetvli_r7_r6_e32_macro;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:97:5: error: 'ld_r10_a_upper_20_macro' was not declared in this scope
+   97 |     ld_r10_a_upper_20_macro;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:98:5: error: 'add_r10_r10_imm_a_lower_12_macro' was not declared in this scope
+   98 |     add_r10_r10_imm_a_lower_12_macro;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:99:5: error: 'ld_r12_imm_0xfffff_macro' was not declared in this scope
+   99 |     ld_r12_imm_0xfffff_macro;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:100:29: error: 'sub_r10_r10_r12_macro' was not declared in this scope
+  100 |     if (a_lower_12 & 0x800) sub_r10_r10_r12_macro;
+      |                             ^~~~~~~~~~~~~~~~~~~~~
+spmv.c:102:5: error: 'ld_r11_c_upper_20_macro' was not declared in this scope
+  102 |     ld_r11_c_upper_20_macro;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:103:5: error: 'add_r11_r11_imm_c_lower_12_macro' was not declared in this scope
+  103 |     add_r11_r11_imm_c_lower_12_macro;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:104:29: error: 'sub_r11_r11_r12_macro' was not declared in this scope
+  104 |     if (c_lower_12 & 0x800) sub_r11_r11_r12_macro;
+      |                             ^~~~~~~~~~~~~~~~~~~~~
+spmv.c:106:5: error: 'ld_r13_b_upper_20_macro' was not declared in this scope
+  106 |     ld_r13_b_upper_20_macro;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:107:5: error: 'add_r13_r13_imm_b_lower_12_macro' was not declared in this scope
+  107 |     add_r13_r13_imm_b_lower_12_macro;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:108:29: error: 'sub_r13_r13_r12_macro' was not declared in this scope
+  108 |     if (b_lower_12 & 0x800) sub_r13_r13_r12_macro;
+      |                             ^~~~~~~~~~~~~~~~~~~~~
+spmv.c:110:5: error: 'ld_r14_d_upper_20_macro' was not declared in this scope
+  110 |     ld_r14_d_upper_20_macro;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:111:5: error: 'add_r14_r14_imm_d_lower_12_macro' was not declared in this scope
+  111 |     add_r14_r14_imm_d_lower_12_macro;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:112:29: error: 'sub_r14_r14_r12_macro' was not declared in this scope
+  112 |     if (d_lower_12 & 0x800) sub_r14_r14_r12_macro;
+      |                             ^~~~~~~~~~~~~~~~~~~~~
+spmv.c:116:9: error: 'vlwv_v10_r10_macro' was not declared in this scope
+  116 |         vlwv_v10_r10_macro;
+      |         ^~~~~~~~~~~~~~~~~~
+spmv.c:117:9: error: 'vlwv_v13_r13_macro' was not declared in this scope
+  117 |         vlwv_v13_r13_macro;
+      |         ^~~~~~~~~~~~~~~~~~
+spmv.c:118:9: error: 'vmul_vv_v11_v10_v13_vm_macro' was not declared in this scope
+  118 |         vmul_vv_v11_v10_v13_vm_macro;
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:120:9: error: 'vswv_r11_v11_macro' was not declared in this scope
+  120 |         vswv_r11_v11_macro;
+      |         ^~~~~~~~~~~~~~~~~~
+spmv.c:121:9: error: 'add_10_10_imm_256_macro' was not declared in this scope
+  121 |         add_10_10_imm_256_macro;
+      |         ^~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:122:9: error: 'add_11_11_imm_256_macro' was not declared in this scope
+  122 |         add_11_11_imm_256_macro;
+      |         ^~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:123:9: error: 'add_13_13_imm_256_macro' was not declared in this scope
+  123 |         add_13_13_imm_256_macro;
+      |         ^~~~~~~~~~~~~~~~~~~~~~~
+spmv.c:125:5: error: 'vswv_r14_v14_macro' was not declared in this scope
+  125 |     vswv_r14_v14_macro;
+      |     ^~~~~~~~~~~~~~~~~~
+bbl loader
+couldn't open ELF program: ../tests/a.out!
+Number of Instructions Executed: 255038
